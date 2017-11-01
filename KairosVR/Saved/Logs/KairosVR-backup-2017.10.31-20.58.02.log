@@ -1,0 +1,570 @@
+﻿Log file open, 10/31/17 15:16:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: KairosVR
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-795443965) SRandInit(-795443964).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.061854
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/ProgramFiles/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.31-19.16.50:615][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.31-19.16.50:615][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.31-19.16.50:746][  0]LogInit: Computer: DESKTOP-QLCPO53
+[2017.10.31-19.16.50:746][  0]LogInit: User: JonathanOates
+[2017.10.31-19.16.50:746][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.31-19.16.50:746][  0]LogInit: High frequency timer resolution =2.742183 MHz
+[2017.10.31-19.16.50:746][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.31-19.16.50:746][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.31-19.16.50:746][  0]LogMemory: Process Physical Memory: 277.69 MB used, 277.69 MB peak
+[2017.10.31-19.16.50:747][  0]LogMemory: Process Virtual Memory: 274.29 MB used, 274.29 MB peak
+[2017.10.31-19.16.50:747][  0]LogMemory: Physical Memory: 3831.59 MB used,  12418.67 MB free, 16250.27 MB total
+[2017.10.31-19.16.50:747][  0]LogMemory: Virtual Memory: 654.59 MB used,  12418.67 MB free, 134217728.00 MB total
+[2017.10.31-19.16.52:678][  0]LogInit: Using OS detected language (en-US).
+[2017.10.31-19.16.52:678][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.31-19.16.52:858][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.31-19.16.55:610][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.31-19.16.56:650][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2017.10.31-19.16.56:650][  0]LogD3D11RHI:       4014/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.31-19.16.56:660][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.10.31-19.16.56:660][  0]LogD3D11RHI:       128/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.31-19.16.56:662][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.31-19.16.56:662][  0]LogD3D11RHI:       0/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.31-19.16.56:662][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.31-19.16.56:668][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.31-19.16.56:668][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2017.10.31-19.16.56:668][  0]LogWindows: EnumDisplayDevices:
+[2017.10.31-19.16.56:668][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2017.10.31-19.16.56:669][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.10.31-19.16.56:669][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.10.31-19.16.56:670][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.10.31-19.16.56:670][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.10.31-19.16.56:670][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2017.10.31-19.16.56:671][  0]LogD3D11RHI:   Driver Version: 384.77 (internal:22.21.13.8477, unified:384.77)
+[2017.10.31-19.16.56:671][  0]LogD3D11RHI:      Driver Date: 6-29-2017
+[2017.10.31-19.16.56:671][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.31-19.16.56:764][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.31-19.16.57:053][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.31-19.16.57:143][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Intermediate/Shaders/WorkingDirectory/9364/).
+[2017.10.31-19.16.57:143][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jonathan Oates/AppData/Local/Temp/UnrealShaderWorkingDir/E248146D4EE9D17A04EB23A66AC00F74/'.
+[2017.10.31-19.16.57:162][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.31-19.17.00:700][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.31-19.17.00:887][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.31-19.17.00:997][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.31-19.17.01:048][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.31-19.17.01:127][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.31-19.17.01:183][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.31-19.17.01:246][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.31-19.17.01:297][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.31-19.17.01:351][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.31-19.17.01:427][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.31-19.17.01:491][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.31-19.17.01:542][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.31-19.17.01:597][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.31-19.17.01:645][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.31-19.17.01:712][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.31-19.17.01:885][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.31-19.17.01:885][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.31-19.17.01:964][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.31-19.17.02:123][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.31-19.17.02:165][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.31-19.17.02:248][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.31-19.17.02:320][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.31-19.17.02:395][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.31-19.17.02:503][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.31-19.17.02:503][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.31-19.17.04:706][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.31-19.17.05:718][  0]LogDerivedDataCache: Loaded boot cache 1.01s 106MB C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.31-19.17.05:719][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.31-19.17.05:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.31-19.17.05:719][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.31-19.17.05:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.31-19.17.05:719][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.31-19.17.05:832][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.31-19.17.05:855][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.31-19.17.05:948][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.31-19.17.06:006][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.31-19.17.06:059][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.31-19.17.06:067][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.31-19.17.13:378][  0]LogAssetRegistry: FAssetRegistry took 0.0491 seconds to start up
+[2017.10.31-19.17.14:675][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.31-19.17.16:735][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.31-19.17.17:964][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.31-19.17.18:151][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.31-19.17.18:172][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.31-19.17.18:173][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.31-19.17.18:173][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.31-19.17.18:173][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.31-19.17.21:404][  0]LogNetVersion: KairosVR , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2146758158)
+[2017.10.31-19.17.23:306][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.227284 seconds
+[2017.10.31-19.17.23:324][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.31-19.17.23:324][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.31-19.17.23:324][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.31-19.17.23:426][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.31-19.17.41:583][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.31-19.17.41:677][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.31-19.17.43:776][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.31-19.17.44:881][  0]SourceControl: Source control is disabled
+[2017.10.31-19.17.44:881][  0]SourceControl: Source control is disabled
+[2017.10.31-19.17.45:061][  0]SourceControl: Source control is disabled
+[2017.10.31-19.17.45:212][  0]SourceControl: Source control is disabled
+[2017.10.31-19.17.46:853][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.31-19.17.47:301][  0]LogOcInput: OculusInput pre-init called
+[2017.10.31-19.17.48:054][  0]LogEngine: Initializing Engine...
+[2017.10.31-19.17.48:092][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.31-19.17.49:016][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.31-19.17.49:016][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.31-19.17.49:525][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.31-19.17.49:676][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.17.51:205][  0]LogInit: FAudioDevice initialized.
+[2017.10.31-19.17.51:548][  0]LogDerivedDataCache: Saved boot cache 0.34s 93MB C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.31-19.17.51:574][  0]LogInit: Texture streaming: Enabled
+[2017.10.31-19.17.51:748][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.31-19.17.52:741][  0]LogInit: Transaction tracking system initialized
+[2017.10.31-19.17.54:361][  0]BlueprintLog: New page: Editor Load
+[2017.10.31-19.17.59:106][  0]LocalizationService: Localization service is disabled
+[2017.10.31-19.18.01:649][  0]LogConsoleResponse: Display: 
+[2017.10.31-19.18.04:938][  0]LogFileCache: Scanning file cache for directory 'D:/Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Content/' took 0.02s
+[2017.10.31-19.18.04:938][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.31-19.18.04:938][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.31-19.18.05:012][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.31-19.18.10:582][  0]SourceControl: Source control is disabled
+[2017.10.31-19.18.10:685][  0]Cmd: MAP LOAD FILE="../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Content/Levels/ShipInterior.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.31-19.18.10:800][  0]LightingResults: New page: Lighting Build
+[2017.10.31-19.18.11:054][  0]MapCheck: New page: Map Check
+[2017.10.31-19.18.11:054][  0]LightingResults: New page: Lighting Build
+[2017.10.31-19.18.13:491][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2017.10.31-19.18.13:492][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Content/VirutalRealityTemplateContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2017.10.31-19.18.13:492][  0]LoadErrors: Error: /Game/VirutalRealityTemplateContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2017.10.31-19.18.13:494][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2017.10.31-19.18.13:494][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Content/VirutalRealityTemplateContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset.
+[2017.10.31-19.18.13:494][  0]LoadErrors: Error: /Game/VirutalRealityTemplateContent/VirtualReality/Mannequin/Animations/RightHand_AnimBP : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2017.10.31-19.18.13:496][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2017.10.31-19.18.13:496][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
+[2017.10.31-19.18.13:497][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Content/Blueprints/BP_MotionController.uasset.
+[2017.10.31-19.18.13:497][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by GripState
+[2017.10.31-19.18.13:497][  0]LoadErrors: Error: /Game/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2017.10.31-19.18.13:497][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2017.10.31-19.18.13:497][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Content/Blueprints/BP_MotionController.uasset.
+[2017.10.31-19.18.13:497][  0]LoadErrors: Error: /Game/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2017.10.31-19.18.13:497][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2017.10.31-19.18.13:497][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Content/Blueprints/BP_MotionController.uasset.
+[2017.10.31-19.18.13:497][  0]LoadErrors: Error: /Game/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2017.10.31-19.18.13:498][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2017.10.31-19.18.13:498][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
+[2017.10.31-19.18.13:498][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Content/Blueprints/BP_MotionController.uasset.
+[2017.10.31-19.18.13:498][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by RightHand_AnimBP
+[2017.10.31-19.18.13:498][  0]LoadErrors: Error: /Game/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2017.10.31-19.18.13:499][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Blueprints/GripEnum'
+[2017.10.31-19.18.13:499][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
+[2017.10.31-19.18.13:499][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Blueprints/GripEnum' while loading ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Content/Blueprints/BP_MotionController.uasset.
+[2017.10.31-19.18.13:499][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum Referenced by K2Node_VariableGet_64
+[2017.10.31-19.18.13:499][  0]LoadErrors: Error: /Game/Blueprints/BP_MotionController : Can't find file for asset. /Game/VirtualRealityBP/Blueprints/GripEnum
+[2017.10.31-19.18.15:731][  0]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.18.16:145][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.31-19.18.16:383][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.31-19.18.16:638][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 254.389ms to complete.
+[2017.10.31-19.18.16:638][  0]LogFileHelpers: Loading map 'ShipInterior' took 5.982
+[2017.10.31-19.18.19:597][  0]LogCollectionManager: Loaded 0 collections in 0.003910 seconds
+[2017.10.31-19.18.20:440][  0]LogFileCache: Scanning file cache for directory 'D:/Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Saved/Collections/' took 0.01s
+[2017.10.31-19.18.20:440][  0]LogFileCache: Scanning file cache for directory 'D:/Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Content/Developers/JonathanOates/Collections/' took 0.01s
+[2017.10.31-19.18.20:440][  0]LogFileCache: Scanning file cache for directory 'D:/Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Content/Collections/' took 0.01s
+[2017.10.31-19.18.20:440][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.31-19.18.20:480][  0]LogContentBrowser: Native class hierarchy populated in 0.0356 seconds. Added 2386 classes and 500 folders.
+[2017.10.31-19.18.20:816][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0165 seconds. Added 0 classes and 0 folders.
+[2017.10.31-19.18.23:282][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.10.31-19.18.23:665][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.10.31-19.18.28:832][  0]LogSlate: Took 0.032034 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.31-19.18.28:854][  0]LogSlate: Took 0.011643 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.31-19.18.29:016][  0]LogSlate: Took 0.048821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.31-19.18.29:791][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 26 NumSamples 1 (Frame:1).
+[2017.10.31-19.18.30:452][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.10.31-19.18.30:452][  0]LogLoad: (Engine Initialization) Total time: 115.54 seconds
+[2017.10.31-19.18.30:452][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.31-19.18.30:453][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.31-19.18.30:896][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.31-19.18.31:132][  0]LogSlate: Took 0.014856 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.31-19.18.31:614][  2]LogAssetRegistry: Asset discovery search completed in 78.2588 seconds
+[2017.10.31-19.18.31:616][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.31-19.18.31:616][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2017.10.31-19.18.36:608][ 87]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.31-19.18.36:858][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-19.18.36:871][ 87]PIE: New page: PIE session: ShipInterior (Oct 31, 2017, 11:18:36 AM)
+[2017.10.31-19.18.36:871][ 87]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShipInterior
+[2017.10.31-19.18.36:929][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058241s)
+[2017.10.31-19.18.36:930][ 87]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.18.36:931][ 87]LogPlayLevel: PIE: World Init took: (0.001294s)
+[2017.10.31-19.18.36:931][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShipInterior.ShipInterior to /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior (0.059996s)
+[2017.10.31-19.18.36:977][ 87]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.18.37:078][ 87]LogInit: FAudioDevice initialized.
+[2017.10.31-19.18.37:192][ 87]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.10.31-19.18.37:193][ 87]LogLoad: Game class is 'GameModeBase'
+[2017.10.31-19.18.37:233][ 87]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.10.31-15.18.37
+[2017.10.31-19.18.37:260][ 87]LogWorld: Bringing up level for play took: 0.029076
+[2017.10.31-19.18.37:378][ 87]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2017.10.31-19.18.37:470][ 87]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShipInterior 1.371
+[2017.10.31-19.18.56:601][565]LogSlate: Took 0.000678 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.31-19.19.19:481][134]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.31-19.19.19:852][134]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 113 classes and 0 folders.
+[2017.10.31-19.19.28:194][318]LogRenderer: Reallocating scene render targets to support 964x540 Format 26 NumSamples 1 (Frame:186).
+[2017.10.31-19.19.35:823][555]LogSlate: Took 0.037117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.31-19.21.04:074][648]LogSlate: Took 0.010543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.31-19.21.43:343][749]LogSlate: Took 0.011178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.31-19.25.10:334][916]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.26.02:381][436]LogBlueprint: Warning: [BP_Weapon_Minigun] 'ShipRootPoint' variable not found. Base class was probably changed.
+[2017.10.31-19.26.02:381][436]LogBlueprint: Warning: [BP_Weapon_Minigun] 'ShipRootPoint' variable not found. Base class was probably changed.
+[2017.10.31-19.28.41:228][302]LogSlate: Took 0.001012 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.31-19.28.50:403][431]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/ShipInterior' took 0.035
+[2017.10.31-19.28.50:438][431]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_GenericShip] ([1] browsable assets)...
+[2017.10.31-19.28.50:534][431]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_GenericShip.BP_GenericShip]
+[2017.10.31-19.28.50:534][431]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_GenericShip]
+[2017.10.31-19.28.50:884][431]LogSavePackage: Save=237.15ms
+[2017.10.31-19.28.50:884][431]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Saved/BP_GenericShip_Auto1A3F0C3F0425DE8FC1D12488E832F08FD.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Saved/Autosaves/Game/Blueprints/BP_GenericShip_Auto1.uasset'
+[2017.10.31-19.28.50:908][431]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Saved/Autosaves/Game/Blueprints/BP_GenericShip_Auto1.uasset
+[2017.10.31-19.28.50:910][431]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Weapon_Minigun] ([1] browsable assets)...
+[2017.10.31-19.28.50:910][431]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Weapon_Minigun]
+[2017.10.31-19.28.50:949][431]LogSavePackage: Save=37.35ms
+[2017.10.31-19.28.50:949][431]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Saved/BP_Weapon_Minigun_Auto1BE08677A4C0FBDFE5C504B89E480B25E.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Saved/Autosaves/Game/Blueprints/BP_Weapon_Minigun_Auto1.uasset'
+[2017.10.31-19.28.50:952][431]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR/Saved/Autosaves/Game/Blueprints/BP_Weapon_Minigun_Auto1.uasset
+[2017.10.31-19.28.50:952][431]LogFileHelpers: Auto-saving content packages took 0.548
+[2017.10.31-19.30.48:532][997]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.31.09:636][483]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.31.22:438][746]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.32.52:741][711]LogEditorTransaction: Undo Delete current selection
+[2017.10.31-19.32.53:432][725]LogEditorTransaction: Undo Delete current selection
+[2017.10.31-19.33.21:741][335]LogEditorTransaction: Undo Delete current selection
+[2017.10.31-19.33.22:132][342]LogEditorTransaction: Undo Delete current selection
+[2017.10.31-19.33.34:922][657]LogEditorTransaction: Undo Delete current selection
+[2017.10.31-19.34.19:067][494]LogEditorTransaction: Undo Modify Component(s)
+[2017.10.31-19.34.30:657][747]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.37.28:439][741]LogEditorTransaction: Undo Move Nodes
+[2017.10.31-19.37.40:541][991]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.37.48:996][147]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.38.46:106][268]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.39.04:107][622]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.39.45:629][561]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.31-19.39.45:651][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-19.39.45:652][561]PIE: New page: PIE session: ShipInterior (Oct 31, 2017, 11:39:45 AM)
+[2017.10.31-19.39.45:652][561]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShipInterior
+[2017.10.31-19.39.45:655][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002993s)
+[2017.10.31-19.39.45:655][561]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.39.45:656][561]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2017.10.31-19.39.45:656][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShipInterior.ShipInterior to /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior (0.004241s)
+[2017.10.31-19.39.45:699][561]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.39.45:774][561]LogInit: FAudioDevice initialized.
+[2017.10.31-19.39.45:805][561]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.10.31-19.39.45:805][561]LogLoad: Game class is 'GameModeBase'
+[2017.10.31-19.39.45:808][561]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.10.31-15.39.45
+[2017.10.31-19.39.45:809][561]LogWorld: Bringing up level for play took: 0.003010
+[2017.10.31-19.39.45:816][561]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShipInterior -0.283
+[2017.10.31-19.39.58:919][955]LogEditorViewport: Clicking on Actor (LMB): BP_ControlTable_C (BP_ControlTable)
+[2017.10.31-19.40.00:109][992]LogEditorViewport: Clicking on Actor (LMB): BP_ControlTable_C (BP_ControlTable)
+[2017.10.31-19.40.01:045][ 20]LogEditorViewport: Clicking on Actor (LMB): BP_Weapon_Minigun_C (BP_Weapon_Minigun)
+[2017.10.31-19.40.14:101][480]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.40.37:584][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-19.40.37:584][128]PIE: New page: SIE session: ShipInterior (Oct 31, 2017, 11:40:37 AM)
+[2017.10.31-19.40.37:584][128]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShipInterior
+[2017.10.31-19.40.37:590][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005842s)
+[2017.10.31-19.40.37:592][128]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.40.37:592][128]LogPlayLevel: PIE: World Init took: (0.001853s)
+[2017.10.31-19.40.37:592][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShipInterior.ShipInterior to /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior (0.008268s)
+[2017.10.31-19.40.37:634][128]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.40.37:752][128]LogInit: FAudioDevice initialized.
+[2017.10.31-19.40.37:797][128]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.10.31-19.40.37:797][128]LogLoad: Game class is 'GameModeBase'
+[2017.10.31-19.40.37:803][128]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.10.31-15.40.37
+[2017.10.31-19.40.37:804][128]LogWorld: Bringing up level for play took: 0.004227
+[2017.10.31-19.40.37:805][128]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.31-19.40.37:847][128]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShipInterior -0.252
+[2017.10.31-19.40.42:242][233]LogEditorViewport: Clicking on Actor (LMB): BP_Weapon_Minigun_C (BP_Weapon_Minigun)
+[2017.10.31-19.40.49:944][466]Cmd: TRANSACTION UNDO
+[2017.10.31-19.40.49:944][466]LogEditorTransaction: Undo Rotate Actors
+[2017.10.31-19.41.31:294][712]Cmd: TRANSACTION UNDO
+[2017.10.31-19.41.31:294][712]LogEditorTransaction: Undo Rotate Actors
+[2017.10.31-19.41.33:630][774]LogTemp: Repeating last play command: Simulate
+[2017.10.31-19.41.33:644][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-19.41.33:645][774]PIE: New page: SIE session: ShipInterior (Oct 31, 2017, 11:41:33 AM)
+[2017.10.31-19.41.33:645][774]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShipInterior
+[2017.10.31-19.41.33:648][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002916s)
+[2017.10.31-19.41.33:648][774]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.41.33:649][774]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2017.10.31-19.41.33:649][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShipInterior.ShipInterior to /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior (0.004040s)
+[2017.10.31-19.41.33:682][774]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.41.33:759][774]LogInit: FAudioDevice initialized.
+[2017.10.31-19.41.33:798][774]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.10.31-19.41.33:798][774]LogLoad: Game class is 'GameModeBase'
+[2017.10.31-19.41.33:803][774]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.10.31-15.41.33
+[2017.10.31-19.41.33:804][774]LogWorld: Bringing up level for play took: 0.003308
+[2017.10.31-19.41.33:804][774]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.31-19.41.33:812][774]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShipInterior -0.287
+[2017.10.31-19.41.46:663][ 52]LogTemp: Repeating last play command: Simulate
+[2017.10.31-19.41.46:677][ 52]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-19.41.46:677][ 52]PIE: New page: SIE session: ShipInterior (Oct 31, 2017, 11:41:46 AM)
+[2017.10.31-19.41.46:677][ 52]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShipInterior
+[2017.10.31-19.41.46:681][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002966s)
+[2017.10.31-19.41.46:682][ 52]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.41.46:682][ 52]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2017.10.31-19.41.46:682][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShipInterior.ShipInterior to /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior (0.004395s)
+[2017.10.31-19.41.46:733][ 52]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.41.46:800][ 52]LogInit: FAudioDevice initialized.
+[2017.10.31-19.41.46:836][ 52]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.10.31-19.41.46:836][ 52]LogLoad: Game class is 'GameModeBase'
+[2017.10.31-19.41.46:841][ 52]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.10.31-15.41.46
+[2017.10.31-19.41.46:841][ 52]LogWorld: Bringing up level for play took: 0.003260
+[2017.10.31-19.41.46:842][ 52]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.31-19.41.46:849][ 52]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShipInterior 0.75
+[2017.10.31-19.42.15:776][660]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.42.16:907][677]LogTemp: Repeating last play command: Simulate
+[2017.10.31-19.42.16:928][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-19.42.16:928][677]PIE: New page: SIE session: ShipInterior (Oct 31, 2017, 11:42:16 AM)
+[2017.10.31-19.42.16:928][677]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShipInterior
+[2017.10.31-19.42.16:930][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002281s)
+[2017.10.31-19.42.16:931][677]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.42.16:931][677]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2017.10.31-19.42.16:931][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShipInterior.ShipInterior to /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior (0.003164s)
+[2017.10.31-19.42.16:977][677]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.42.17:055][677]LogInit: FAudioDevice initialized.
+[2017.10.31-19.42.17:093][677]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.10.31-19.42.17:093][677]LogLoad: Game class is 'GameModeBase'
+[2017.10.31-19.42.17:099][677]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.10.31-15.42.17
+[2017.10.31-19.42.17:099][677]LogWorld: Bringing up level for play took: 0.003717
+[2017.10.31-19.42.17:100][677]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.31-19.42.17:111][677]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShipInterior 1.012
+[2017.10.31-19.42.22:987][811]LogTemp: Repeating last play command: Simulate
+[2017.10.31-19.42.23:002][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-19.42.23:002][811]PIE: New page: SIE session: ShipInterior (Oct 31, 2017, 11:42:23 AM)
+[2017.10.31-19.42.23:002][811]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShipInterior
+[2017.10.31-19.42.23:004][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002374s)
+[2017.10.31-19.42.23:005][811]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.42.23:005][811]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2017.10.31-19.42.23:005][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShipInterior.ShipInterior to /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior (0.003298s)
+[2017.10.31-19.42.23:027][811]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.42.23:096][811]LogInit: FAudioDevice initialized.
+[2017.10.31-19.42.23:134][811]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.10.31-19.42.23:135][811]LogLoad: Game class is 'GameModeBase'
+[2017.10.31-19.42.23:140][811]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.10.31-15.42.23
+[2017.10.31-19.42.23:141][811]LogWorld: Bringing up level for play took: 0.003425
+[2017.10.31-19.42.23:141][811]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.31-19.42.23:150][811]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShipInterior 1.051
+[2017.10.31-19.42.34:919][ 65]LogTemp: Repeating last play command: Simulate
+[2017.10.31-19.42.34:933][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-19.42.34:933][ 65]PIE: New page: SIE session: ShipInterior (Oct 31, 2017, 11:42:34 AM)
+[2017.10.31-19.42.34:933][ 65]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShipInterior
+[2017.10.31-19.42.34:936][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002414s)
+[2017.10.31-19.42.34:936][ 65]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.42.34:936][ 65]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2017.10.31-19.42.34:937][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShipInterior.ShipInterior to /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior (0.003334s)
+[2017.10.31-19.42.34:992][ 65]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.42.35:060][ 65]LogInit: FAudioDevice initialized.
+[2017.10.31-19.42.35:093][ 65]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.10.31-19.42.35:093][ 65]LogLoad: Game class is 'GameModeBase'
+[2017.10.31-19.42.35:095][ 65]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.10.31-15.42.35
+[2017.10.31-19.42.35:096][ 65]LogWorld: Bringing up level for play took: 0.001481
+[2017.10.31-19.42.35:096][ 65]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.31-19.42.35:099][ 65]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShipInterior 1.001
+[2017.10.31-19.43.39:821][389]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.43.41:011][407]LogTemp: Repeating last play command: Simulate
+[2017.10.31-19.43.41:031][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-19.43.41:031][407]PIE: New page: SIE session: ShipInterior (Oct 31, 2017, 11:43:41 AM)
+[2017.10.31-19.43.41:031][407]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShipInterior
+[2017.10.31-19.43.41:033][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002429s)
+[2017.10.31-19.43.41:034][407]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.43.41:034][407]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2017.10.31-19.43.41:034][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShipInterior.ShipInterior to /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior (0.003397s)
+[2017.10.31-19.43.41:081][407]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.43.41:163][407]LogInit: FAudioDevice initialized.
+[2017.10.31-19.43.41:201][407]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.10.31-19.43.41:201][407]LogLoad: Game class is 'GameModeBase'
+[2017.10.31-19.43.41:206][407]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.10.31-15.43.41
+[2017.10.31-19.43.41:206][407]LogWorld: Bringing up level for play took: 0.003012
+[2017.10.31-19.43.41:207][407]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.31-19.43.41:214][407]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShipInterior 1.115
+[2017.10.31-19.46.16:477][792]LogEditorTransaction: Undo Move Node
+[2017.10.31-19.46.30:713][ 48]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.46.31:921][ 67]LogTemp: Repeating last play command: Simulate
+[2017.10.31-19.46.31:943][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-19.46.31:943][ 67]PIE: New page: SIE session: ShipInterior (Oct 31, 2017, 11:46:31 AM)
+[2017.10.31-19.46.31:943][ 67]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShipInterior
+[2017.10.31-19.46.31:945][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002432s)
+[2017.10.31-19.46.31:946][ 67]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.46.31:946][ 67]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2017.10.31-19.46.31:946][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShipInterior.ShipInterior to /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior (0.003463s)
+[2017.10.31-19.46.31:992][ 67]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.46.32:091][ 67]LogInit: FAudioDevice initialized.
+[2017.10.31-19.46.32:123][ 67]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.10.31-19.46.32:123][ 67]LogLoad: Game class is 'GameModeBase'
+[2017.10.31-19.46.32:126][ 67]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.10.31-15.46.32
+[2017.10.31-19.46.32:127][ 67]LogWorld: Bringing up level for play took: 0.002584
+[2017.10.31-19.46.32:127][ 67]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.31-19.46.32:133][ 67]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShipInterior 0.035
+[2017.10.31-19.47.01:007][ 59]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.47.02:180][ 81]LogTemp: Repeating last play command: Simulate
+[2017.10.31-19.47.02:200][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-19.47.02:200][ 81]PIE: New page: SIE session: ShipInterior (Oct 31, 2017, 11:47:02 AM)
+[2017.10.31-19.47.02:200][ 81]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShipInterior
+[2017.10.31-19.47.02:203][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002259s)
+[2017.10.31-19.47.02:203][ 81]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.47.02:204][ 81]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2017.10.31-19.47.02:204][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShipInterior.ShipInterior to /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior (0.003191s)
+[2017.10.31-19.47.02:250][ 81]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.47.02:339][ 81]LogInit: FAudioDevice initialized.
+[2017.10.31-19.47.02:373][ 81]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.10.31-19.47.02:373][ 81]LogLoad: Game class is 'GameModeBase'
+[2017.10.31-19.47.02:379][ 81]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.10.31-15.47.02
+[2017.10.31-19.47.02:380][ 81]LogWorld: Bringing up level for play took: 0.003942
+[2017.10.31-19.47.02:381][ 81]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.31-19.47.02:391][ 81]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShipInterior 0.292
+[2017.10.31-19.47.18:526][472]LogTemp: Repeating last play command: Simulate
+[2017.10.31-19.47.18:540][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-19.47.18:540][472]PIE: New page: SIE session: ShipInterior (Oct 31, 2017, 11:47:18 AM)
+[2017.10.31-19.47.18:540][472]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShipInterior
+[2017.10.31-19.47.18:543][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003172s)
+[2017.10.31-19.47.18:544][472]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.47.18:544][472]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2017.10.31-19.47.18:544][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShipInterior.ShipInterior to /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior (0.004211s)
+[2017.10.31-19.47.18:597][472]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.47.18:663][472]LogInit: FAudioDevice initialized.
+[2017.10.31-19.47.18:700][472]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.10.31-19.47.18:700][472]LogLoad: Game class is 'GameModeBase'
+[2017.10.31-19.47.18:706][472]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.10.31-15.47.18
+[2017.10.31-19.47.18:707][472]LogWorld: Bringing up level for play took: 0.004189
+[2017.10.31-19.47.18:708][472]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.31-19.47.18:719][472]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShipInterior 0.62
+[2017.10.31-19.47.47:413][ 81]BlueprintLog: New page: Compile BP_Weapon_Minigun
+[2017.10.31-19.47.50:288][154]LogTemp: Repeating last play command: Simulate
+[2017.10.31-19.47.50:309][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-19.47.50:309][154]PIE: New page: SIE session: ShipInterior (Oct 31, 2017, 11:47:50 AM)
+[2017.10.31-19.47.50:309][154]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShipInterior
+[2017.10.31-19.47.50:311][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002393s)
+[2017.10.31-19.47.50:312][154]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.47.50:312][154]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2017.10.31-19.47.50:312][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShipInterior.ShipInterior to /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior (0.003347s)
+[2017.10.31-19.47.50:358][154]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.47.50:472][154]LogInit: FAudioDevice initialized.
+[2017.10.31-19.47.50:516][154]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.10.31-19.47.50:516][154]LogLoad: Game class is 'GameModeBase'
+[2017.10.31-19.47.50:522][154]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.10.31-15.47.50
+[2017.10.31-19.47.50:523][154]LogWorld: Bringing up level for play took: 0.004390
+[2017.10.31-19.47.50:524][154]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.31-19.47.50:534][154]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShipInterior 0.435
+[2017.10.31-19.48.07:934][568]LogTemp: Repeating last play command: Simulate
+[2017.10.31-19.48.07:975][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.31-19.48.07:976][568]PIE: New page: SIE session: ShipInterior (Oct 31, 2017, 11:48:07 AM)
+[2017.10.31-19.48.07:976][568]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_ShipInterior
+[2017.10.31-19.48.07:984][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007616s)
+[2017.10.31-19.48.07:985][568]LogAIModule: Creating AISystem for world ShipInterior
+[2017.10.31-19.48.07:986][568]LogPlayLevel: PIE: World Init took: (0.001940s)
+[2017.10.31-19.48.07:986][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/ShipInterior.ShipInterior to /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior (0.010219s)
+[2017.10.31-19.48.08:043][568]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.31-19.48.08:150][568]LogInit: FAudioDevice initialized.
+[2017.10.31-19.48.08:194][568]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.10.31-19.48.08:194][568]LogLoad: Game class is 'GameModeBase'
+[2017.10.31-19.48.08:200][568]LogWorld: Bringing World /Game/Levels/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.10.31-15.48.08
+[2017.10.31-19.48.08:201][568]LogWorld: Bringing up level for play took: 0.004140
+[2017.10.31-19.48.08:202][568]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.31-19.48.08:212][568]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_ShipInterior 0.113
