@@ -1,0 +1,26 @@
+Asteroids:
+[ ]	Smarter Spawning
+[ ]	Damage Indicators
+[ ]	Ship Damaging
+[ ]	Better Split Effects
+
+Ship:
+[ ]	Better Handling (reversion?)
+[X]	Point Ship at Target
+[ ]	Thruster Effects
+[ ]	Time-Freeze Effects
+
+Weapons:
+[X]	Implement Railgun
+[ ]	Bullet Trails
+
+GUI:
+[X]	Menu Reworking
+ 	[X]	Removal of ship menu
+ 	[X]	Weapon Icons
+[X]	Not breaking game when selecting empty slot
+[ ]	Score Screen
+[ ]	Life Indicator Screen
+[ ]	Time-Freeze Screen
+[ ]	Active Weapon Screen
+[ ]	Restart Screen
