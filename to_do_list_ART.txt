@@ -1,0 +1,38 @@
+Asteroids:
+[ ]	Texturing
+
+GUI:
+[ ]	Hologram Material
+[ ]	Score Screen
+	[ ]	Model (backboard)
+[ ]	Life Screen
+	[ ]	Model (backboard)
+	[ ]	Sprite (life indicator)
+[ ]	Weapon Screen
+	[ ]	Model (backboard)
+[ ]	Time-Freeze Screen
+	[ ]	Model (backboard)
+	[ ]	Sprite (freeze icon: active and passive)
+[ ]	Weapon Sprites
+	[ ]	Minigun Icon
+	[ ]	Rail-Gun Icon
+
+Ship/Weapons:
+[ ]	Ship Texture
+[ ]	Weapon Textures
+	[ ]	Minigun Texture
+	[ ]	Rail-Gun Texture
+[ ]	Bullet Model
+[ ]	Bullet Texture
+
+Table:
+[ ]	Table Texture
+[ ]	Holographic Materials
+[ ]	Edge of Play-Area Model
+[ ]	Table-Top Lighing (?)
+
+Ship Interior:
+[ ]	Ship Walls/Floor Models
+[ ]	Ship Walls/Floor Textures
+[ ]	Handles Textures
+[ ]	Interior Lighting
