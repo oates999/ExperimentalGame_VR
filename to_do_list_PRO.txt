@@ -20,7 +20,18 @@ GUI:
  	[X]	Weapon Icons
 [X]	Not breaking game when selecting empty slot
 [ ]	Score Screen
+	[ ]	Base Layout
+	[ ]	Update Functionality
 [ ]	Life Indicator Screen
+	[ ]	Base Layout
+	[ ]	Update Functionality
 [ ]	Time-Freeze Screen
+	[ ]	Base Layout
+	[ ]	Cooldown Functionality
 [ ]	Active Weapon Screen
+	[ ]	Base Layout
+	[ ]	Update Functionality
 [ ]	Restart Screen
+	[ ]	Base Layout
+	[ ]	Score Display Functionality
+	[ ]	Button Functionality
