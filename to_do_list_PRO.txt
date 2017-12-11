@@ -1,17 +1,18 @@
 Asteroids:
-[ ]	Smarter Spawning
-	[ ]	Wave Spawning
-	[ ]	Health on wave completion
-[ ]	Damage Indicators
-[ ]	Ship Damaging
-[ ]	Better Split Effects
+[-]	Smarter Spawning
+	[-]	Wave Spawning
+	[-]	Health on wave completion
+[-]	Damage Indicators
+[X]	Ship Damaging
+[-]	Better Split Effects
 
 Ship:
-[ ]	Better Handling (reversion?)
+[-]	Better Handling (reversion?)
 [X]	Point Ship at Target
 [ ]	Thruster Effects
-[ ]	Time-Freeze Effects
+[-]	Time-Freeze Effects
 [ ]	Shockwave
+[ ]	Area-Leave Prevention
 
 Weapons:
 [X]	Implement Railgun
@@ -37,4 +38,7 @@ GUI:
 [X]	Restart Screen
 	[X]	Base Layout
 	[X]	Score Display Functionality
+	[X]	Button Functionality
+[X]	Start Screen
+	[X]	Base Layout
 	[X]	Button Functionality
