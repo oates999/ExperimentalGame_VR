@@ -1,0 +1,549 @@
+﻿Log file open, 12/10/17 21:42:36
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: KairosVR_new
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(331145051) SRandInit(331145051).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 3.854471
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.11-02.42.40:762][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.11-02.42.40:762][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.11-02.42.40:860][  0]LogInit: Computer: DESKTOP-G1FM37K
+[2017.12.11-02.42.40:860][  0]LogInit: User: JonathanOates
+[2017.12.11-02.42.40:860][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.11-02.42.40:860][  0]LogInit: High frequency timer resolution =4.311330 MHz
+[2017.12.11-02.42.40:861][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.12.11-02.42.40:865][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.11-02.42.40:865][  0]LogMemory: Process Physical Memory: 278.18 MB used, 278.18 MB peak
+[2017.12.11-02.42.40:865][  0]LogMemory: Process Virtual Memory: 274.52 MB used, 274.52 MB peak
+[2017.12.11-02.42.40:865][  0]LogMemory: Physical Memory: 3428.54 MB used,  29236.07 MB free, 32664.60 MB total
+[2017.12.11-02.42.40:865][  0]LogMemory: Virtual Memory: 655.02 MB used,  29236.07 MB free, 134217728.00 MB total
+[2017.12.11-02.42.42:285][  0]LogInit: Using OS detected language (en-US).
+[2017.12.11-02.42.42:286][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.11-02.42.42:487][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.11-02.42.46:762][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.11-02.42.47:178][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.12.11-02.42.47:178][  0]LogD3D11RHI:       8091/0/16332 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.11-02.42.47:214][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.11-02.42.47:214][  0]LogD3D11RHI:       0/0/16332 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.11-02.42.47:214][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.11-02.42.47:221][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.11-02.42.47:221][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.11-02.42.47:221][  0]LogWindows: EnumDisplayDevices:
+[2017.12.11-02.42.47:221][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.12.11-02.42.47:221][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.12.11-02.42.47:221][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.12.11-02.42.47:222][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.12.11-02.42.47:222][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.11-02.42.47:222][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.12.11-02.42.47:222][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2017.12.11-02.42.47:222][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2017.12.11-02.42.47:222][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.11-02.42.47:294][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.11-02.42.47:593][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.11-02.42.47:700][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Intermediate/Shaders/WorkingDirectory/7240/).
+[2017.12.11-02.42.47:700][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jonathan Oates/AppData/Local/Temp/UnrealShaderWorkingDir/7BB05BAA469D45D7A34DF98C37E64FFD/'.
+[2017.12.11-02.42.47:700][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.11-02.42.52:874][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.11-02.42.52:990][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.11-02.42.53:105][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.11-02.42.53:238][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.11-02.42.53:905][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.11-02.42.54:071][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.11-02.42.54:239][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.11-02.42.54:355][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.11-02.42.54:521][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.11-02.42.54:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.11-02.42.54:991][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.11-02.42.55:166][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.11-02.42.55:441][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.11-02.42.55:612][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.11-02.42.55:868][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.11-02.42.56:296][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.11-02.42.56:296][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.11-02.42.56:568][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.11-02.42.57:431][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.11-02.42.57:577][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.11-02.42.57:769][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.11-02.42.58:020][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.11-02.42.58:186][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.11-02.42.58:409][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.11-02.42.58:409][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.11-02.43.01:516][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.11-02.43.02:218][  0]LogDerivedDataCache: Loaded boot cache 0.70s 93MB C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.11-02.43.02:218][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.11-02.43.02:218][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.11-02.43.02:218][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.11-02.43.02:218][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.11-02.43.02:218][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.11-02.43.02:286][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.11-02.43.02:337][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.11-02.43.02:392][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.11-02.43.02:470][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.11-02.43.02:507][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.11-02.43.02:511][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.11-02.43.07:291][  0]LogAssetRegistry: FAssetRegistry took 0.0305 seconds to start up
+[2017.12.11-02.43.08:144][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.11-02.43.12:475][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.11-02.43.15:120][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.11-02.43.15:260][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.11-02.43.15:271][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.11-02.43.15:271][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.11-02.43.15:271][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.11-02.43.15:271][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.11-02.43.17:875][  0]LogNetVersion: KairosVR_new , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3281661072)
+[2017.12.11-02.43.19:218][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.123372 seconds
+[2017.12.11-02.43.19:225][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.11-02.43.19:225][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.11-02.43.19:225][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.11-02.43.19:374][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.11-02.43.43:984][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.11-02.43.44:112][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.11-02.43.46:670][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.11-02.43.48:321][  0]SourceControl: Source control is disabled
+[2017.12.11-02.43.48:322][  0]SourceControl: Source control is disabled
+[2017.12.11-02.43.48:522][  0]SourceControl: Source control is disabled
+[2017.12.11-02.43.48:686][  0]SourceControl: Source control is disabled
+[2017.12.11-02.43.51:338][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.11-02.43.52:009][  0]LogOcInput: OculusInput pre-init called
+[2017.12.11-02.43.53:198][  0]LogEngine: Initializing Engine...
+[2017.12.11-02.43.53:889][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.12.11-02.43.56:387][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.11-02.43.56:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.015 s
+[2017.12.11-02.43.57:196][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.11-02.43.57:368][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.11-02.43.57:722][  0]LogInit: FAudioDevice initialized.
+[2017.12.11-02.43.58:190][  0]LogDerivedDataCache: Saved boot cache 0.47s 93MB C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.11-02.43.58:244][  0]LogInit: Texture streaming: Enabled
+[2017.12.11-02.43.58:969][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.11-02.43.58:969][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={BC73BF4E-4E68-DEF2-CA1F-AFA96573AE65}
+[2017.12.11-02.44.01:044][  0]LogInit: Transaction tracking system initialized
+[2017.12.11-02.44.02:889][  0]BlueprintLog: New page: Editor Load
+[2017.12.11-02.44.07:291][  0]LocalizationService: Localization service is disabled
+[2017.12.11-02.44.10:333][  0]LogConsoleResponse: Display: 
+[2017.12.11-02.44.16:632][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/' took 0.04s
+[2017.12.11-02.44.16:632][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.11-02.44.16:633][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.11-02.44.16:720][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.11-02.44.25:616][  0]SourceControl: Source control is disabled
+[2017.12.11-02.44.26:198][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.11-02.44.26:470][  0]LightingResults: New page: Lighting Build
+[2017.12.11-02.44.27:414][  0]MapCheck: New page: Map Check
+[2017.12.11-02.44.27:414][  0]LightingResults: New page: Lighting Build
+[2017.12.11-02.44.38:301][  0]LogAIModule: Creating AISystem for world ShipInterior
+[2017.12.11-02.44.38:601][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.11-02.44.38:853][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.11-02.44.38:980][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 127.174ms to complete.
+[2017.12.11-02.44.38:980][  0]LogFileHelpers: Loading map 'ShipInterior' took 13.290
+[2017.12.11-02.44.41:121][  0]LogCollectionManager: Loaded 0 collections in 0.003530 seconds
+[2017.12.11-02.44.41:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/Collections/' took 0.01s
+[2017.12.11-02.44.41:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Developers/JonathanOates/Collections/' took 0.01s
+[2017.12.11-02.44.41:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Collections/' took 0.01s
+[2017.12.11-02.44.41:824][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.11-02.44.41:839][  0]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2386 classes and 500 folders.
+[2017.12.11-02.44.41:994][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.12.11-02.44.44:973][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.12.11-02.44.45:165][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.12.11-02.44.46:351][  0]LogSlate: Took 0.016266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.11-02.44.46:376][  0]LogSlate: Took 0.011541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.11-02.44.46:460][  0]LogSlate: Took 0.026512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.11-02.44.47:182][  0]LogRenderer: Reallocating scene render targets to support 1136x652 Format 26 NumSamples 1 (Frame:1).
+[2017.12.11-02.44.48:554][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.12.11-02.44.48:554][  0]LogLoad: (Engine Initialization) Total time: 143.59 seconds
+[2017.12.11-02.44.48:554][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.11-02.44.48:568][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.11-02.44.48:568][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.11-02.44.49:126][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.11-02.44.49:322][  0]LogSlate: Took 0.009097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.11-02.44.49:412][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/' took 0.47s
+[2017.12.11-02.44.50:090][  3]LogAssetRegistry: Asset discovery search completed in 102.8218 seconds
+[2017.12.11-02.44.50:092][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.11-02.44.50:092][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2017.12.11-02.45.17:346][735]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.11-02.45.17:467][735]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2017.12.11-02.45.17:556][735]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.45.18:461][735]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.45.18:479][735]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.45.18:560][735]LogSlate: Took 0.014004 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.11-02.45.20:020][790]MaterialEditorStats: Base pass shader: 124 instructions
+[2017.12.11-02.45.20:020][790]MaterialEditorStats: Vertex shader: 85 instructions
+[2017.12.11-02.45.20:020][790]MaterialEditorStats: Texture samplers: 1/16
+[2017.12.11-02.45.21:778][929]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.45.21:818][929]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.45.24:210][ 69]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.45.24:210][ 69]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.45.24:210][ 69]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.45.32:644][796]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.45.34:331][893]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2017.12.11-02.45.35:946][ 26]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.45.35:946][ 26]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.45.35:946][ 26]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.45.41:786][560]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.45.41:837][560]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2017.12.11-02.45.41:890][560]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.45.41:953][560]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2017.12.11-02.45.43:594][658]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.45.45:847][806]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.45.45:847][806]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.45.45:847][806]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.45.46:345][850]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_0, compiling. 
+[2017.12.11-02.46.02:084][219]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.46.02:132][219]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_0, compiling. 
+[2017.12.11-02.46.02:215][220]LogSlate: Took 0.012986 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.11-02.46.09:684][895]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.46.09:684][895]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.46.09:684][895]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.46.12:151][114]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.46.15:441][360]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.46.15:468][360]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.46.17:887][529]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.46.17:887][529]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.46.17:887][529]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.46.23:290][ 14]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.46.25:225][136]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.46.25:225][136]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.46.25:225][136]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.46.25:494][158]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.46.27:392][285]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.46.27:392][285]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.46.27:392][285]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.46.32:009][698]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.46.32:028][698]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.46.34:348][857]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.46.36:202][986]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.46.36:202][986]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.46.36:202][986]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.46.53:878][563]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.46.53:908][563]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.46.53:980][563]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2017.12.11-02.46.53:985][563]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_0, compiling. 
+[2017.12.11-02.46.56:363][713]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.46.56:391][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_0, compiling. 
+[2017.12.11-02.46.59:409][943]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.46.59:410][943]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.46.59:410][943]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.47.05:811][463]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.47.05:831][463]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.47.07:771][581]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.47.07:771][581]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.47.07:771][581]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.47.08:628][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCosine_0, compiling. 
+[2017.12.11-02.47.16:145][280]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.47.16:190][280]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCosine_0, compiling. 
+[2017.12.11-02.47.16:200][280]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.47.16:250][280]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCosine_0, compiling. 
+[2017.12.11-02.47.17:631][360]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAbs_0, compiling. 
+[2017.12.11-02.47.18:968][464]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.47.18:968][464]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.47.18:968][464]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.47.25:253][ 38]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.47.25:309][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAbs_0, compiling. 
+[2017.12.11-02.47.25:324][ 38]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.47.25:372][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAbs_0, compiling. 
+[2017.12.11-02.47.26:892][123]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPower_0, compiling. 
+[2017.12.11-02.47.27:806][183]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.47.27:807][183]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.47.27:807][183]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.47.34:955][772]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.47.35:031][772]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPower_0, compiling. 
+[2017.12.11-02.47.35:038][772]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.47.35:089][772]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPower_0, compiling. 
+[2017.12.11-02.47.36:522][849]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.11-02.47.37:012][874]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.47.37:012][874]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.47.37:012][874]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.47.42:304][282]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.47.42:343][282]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.11-02.47.44:501][401]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.47.44:501][401]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.47.44:501][401]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.47.50:470][875]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.47.50:501][875]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPower_0, compiling. 
+[2017.12.11-02.47.53:219][ 49]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.47.53:219][ 49]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.47.53:219][ 49]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.47.58:621][490]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.47.58:642][490]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.11-02.48.00:670][606]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.48.00:670][606]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.48.00:670][606]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.48.04:763][926]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.48.04:802][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.11-02.48.06:754][ 41]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.48.06:754][ 41]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.48.06:754][ 41]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.48.09:283][239]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.48.09:317][239]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.11-02.48.11:198][347]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.48.11:198][347]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.48.11:198][347]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.48.13:254][513]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.48.13:290][513]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.11-02.48.15:231][626]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.48.15:231][626]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.48.15:231][626]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.48.37:518][443]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.48.37:549][443]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCosine_0, compiling. 
+[2017.12.11-02.48.37:590][443]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAbs_0, compiling. 
+[2017.12.11-02.48.37:625][443]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPower_0, compiling. 
+[2017.12.11-02.48.37:653][443]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.11-02.48.41:170][673]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.48.41:190][673]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.48.42:498][746]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_1, compiling. 
+[2017.12.11-02.48.43:702][830]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.48.43:702][830]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.48.43:702][830]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.48.45:013][935]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.48.45:052][935]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCosine_0, compiling. 
+[2017.12.11-02.48.45:083][935]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_1, compiling. 
+[2017.12.11-02.48.48:665][163]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.48.51:044][314]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.48.51:073][314]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.48.53:224][434]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.48.53:225][434]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.48.53:225][434]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.48.59:187][909]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.49.02:998][176]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.49.02:998][176]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.49.02:998][176]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.49.07:292][514]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.49.09:595][658]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.49.09:617][658]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_1, compiling. 
+[2017.12.11-02.49.11:727][786]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.49.11:727][786]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.49.11:727][786]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.49.39:545][ 93]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.49.41:871][229]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.49.41:871][229]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.49.41:871][229]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.49.46:428][604]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.49.46:447][604]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.49.48:377][715]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.49.48:377][715]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.49.48:377][715]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.49.50:863][913]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.49.52:763][ 19]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.49.52:763][ 19]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.49.52:763][ 19]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.49.53:962][112]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.49.53:997][112]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.49.55:968][221]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.49.55:968][221]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.49.55:968][221]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.50.00:524][570]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.50.02:846][702]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.50.04:772][815]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.50.04:772][815]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.50.04:772][815]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.50.10:600][253]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.50.10:619][253]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.50.17:840][810]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.50.17:840][810]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.50.17:840][810]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.50.22:370][174]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.50.22:390][174]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.50.25:126][345]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.50.25:126][345]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.50.25:126][345]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.50.26:993][487]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.50.27:019][487]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.11-02.50.30:049][676]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.11-02.50.30:049][676]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.11-02.50.30:049][676]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.50.55:912][596]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.50.58:305][726]MaterialEditorStats: Base pass shader: 122 instructions
+[2017.12.11-02.50.58:305][726]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.11-02.50.58:305][726]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.50.58:305][726]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.11-02.51.12:963][856]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.51.12:989][856]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.15:151][976]MaterialEditorStats: Base pass shader: 122 instructions
+[2017.12.11-02.51.15:151][976]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.11-02.51.15:151][976]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.51.15:151][976]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.11-02.51.17:677][173]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.51.17:702][173]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.19:741][278]MaterialEditorStats: Base pass shader: 122 instructions
+[2017.12.11-02.51.19:741][278]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.11-02.51.19:741][278]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.51.19:741][278]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.11-02.51.20:403][324]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.51.20:424][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.21:701][389]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.21:799][393]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.21:832][393]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.21:865][393]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.22:261][415]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.22:349][417]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.22:381][417]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.22:415][417]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.22:450][417]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.22:719][431]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.51.22:748][431]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.23:757][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.23:938][492]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.23:973][492]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:013][492]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:061][492]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:093][492]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:127][492]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:159][492]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:192][492]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:226][492]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:260][492]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:314][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:355][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:388][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:426][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:459][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:492][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:578][496]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:612][496]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:645][496]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:876][507]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:907][507]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:939][507]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.24:983][507]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.25:367][527]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.25:399][527]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.25:439][527]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.25:882][555]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.25:912][555]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.25:944][555]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.26:696][605]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.26:726][605]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.26:791][607]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.27:188][630]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.51.27:211][630]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.29:196][737]MaterialEditorStats: Base pass shader: 122 instructions
+[2017.12.11-02.51.29:196][737]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.11-02.51.29:196][737]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.51.29:196][737]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.11-02.51.35:417][212]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.51.35:437][212]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.51.36:879][292]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.51.38:625][390]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.51.38:661][390]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.12.11-02.51.40:794][510]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.51.42:742][628]MaterialEditorStats: Base pass shader: 122 instructions
+[2017.12.11-02.51.42:742][628]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.11-02.51.42:742][628]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.51.42:742][628]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.11-02.51.44:373][758]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.51.46:370][870]MaterialEditorStats: Base pass shader: 123 instructions
+[2017.12.11-02.51.46:370][870]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.11-02.51.46:370][870]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.51.46:370][870]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.11-02.51.48:902][ 61]LogSavePackage: Save=14.82ms
+[2017.12.11-02.51.48:902][ 61]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/M_Hologram1669B1F714D90CF6593504984793FFCC0.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Hologram1.uasset'
+[2017.12.11-02.51.48:911][ 61]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Hologram1.uasset
+[2017.12.11-02.52.09:301][558]LogMaterial: Missing cached shader map for material M_Hologram1, compiling. 
+[2017.12.11-02.52.11:740][691]MaterialEditorStats: Base pass shader: 123 instructions
+[2017.12.11-02.52.11:740][691]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.11-02.52.11:740][691]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.11-02.52.11:740][691]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
