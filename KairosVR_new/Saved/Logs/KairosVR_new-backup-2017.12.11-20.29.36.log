@@ -1,0 +1,767 @@
+﻿Log file open, 12/11/17 20:09:25
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: KairosVR_new
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(973016902) SRandInit(973016902).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.204583
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.12-01.09.26:408][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.12-01.09.26:408][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.12-01.09.26:423][  0]LogInit: Computer: DESKTOP-G1FM37K
+[2017.12.12-01.09.26:423][  0]LogInit: User: JonathanOates
+[2017.12.12-01.09.26:423][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.12-01.09.26:423][  0]LogInit: High frequency timer resolution =4.311340 MHz
+[2017.12.12-01.09.26:423][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.12.12-01.09.26:423][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.12-01.09.26:423][  0]LogMemory: Process Physical Memory: 278.35 MB used, 278.35 MB peak
+[2017.12.12-01.09.26:423][  0]LogMemory: Process Virtual Memory: 274.62 MB used, 274.62 MB peak
+[2017.12.12-01.09.26:423][  0]LogMemory: Physical Memory: 3084.89 MB used,  29579.71 MB free, 32664.60 MB total
+[2017.12.12-01.09.26:423][  0]LogMemory: Virtual Memory: 655.02 MB used,  29579.71 MB free, 134217728.00 MB total
+[2017.12.12-01.09.26:712][  0]LogInit: Using OS detected language (en-US).
+[2017.12.12-01.09.26:712][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.12-01.09.26:717][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.12-01.09.27:560][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.12-01.09.27:622][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.12.12-01.09.27:622][  0]LogD3D11RHI:       8091/0/16332 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.12-01.09.27:624][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.12-01.09.27:624][  0]LogD3D11RHI:       0/0/16332 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.12-01.09.27:624][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.12-01.09.27:629][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.12-01.09.27:629][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.12-01.09.27:629][  0]LogWindows: EnumDisplayDevices:
+[2017.12.12-01.09.27:629][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.12.12-01.09.27:630][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.12.12-01.09.27:630][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.12.12-01.09.27:630][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.12.12-01.09.27:631][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.12-01.09.27:631][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.12.12-01.09.27:631][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2017.12.12-01.09.27:631][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2017.12.12-01.09.27:631][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.12-01.09.27:668][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.12-01.09.27:681][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.12-01.09.27:733][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Intermediate/Shaders/WorkingDirectory/7764/).
+[2017.12.12-01.09.27:733][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jonathan Oates/AppData/Local/Temp/UnrealShaderWorkingDir/D1C785D249F29201DB474481A0572D68/'.
+[2017.12.12-01.09.27:733][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.12-01.09.29:057][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.12-01.09.29:149][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.12-01.09.29:243][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.12-01.09.29:334][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.12-01.09.29:428][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.12-01.09.29:521][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.12-01.09.29:613][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.12-01.09.29:706][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.12-01.09.29:788][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.12-01.09.29:879][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.12-01.09.29:967][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.12-01.09.30:057][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.12-01.09.30:145][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.12-01.09.30:236][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.12-01.09.30:325][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.12-01.09.30:506][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.12-01.09.30:506][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.12-01.09.30:581][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.12-01.09.30:730][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.12-01.09.30:783][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.12-01.09.30:873][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.12-01.09.30:964][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.12-01.09.31:053][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.12-01.09.31:143][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.12-01.09.31:143][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.12-01.09.32:032][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.12-01.09.32:169][  0]LogDerivedDataCache: Loaded boot cache 0.14s 94MB C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.12-01.09.32:169][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.12-01.09.32:169][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.12-01.09.32:169][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.12-01.09.32:169][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.12-01.09.32:169][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.12-01.09.32:191][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.12-01.09.32:204][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.12-01.09.32:220][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.12-01.09.32:221][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.12-01.09.32:222][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.12-01.09.32:222][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.12-01.09.32:595][  0]LogAssetRegistry: FAssetRegistry took 0.0280 seconds to start up
+[2017.12.12-01.09.32:789][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.12-01.09.33:021][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.12-01.09.33:524][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.12-01.09.33:602][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.12-01.09.33:602][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.12-01.09.33:602][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.12-01.09.33:602][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.12-01.09.33:602][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.12-01.09.34:105][  0]LogNetVersion: KairosVR_new , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3281661072)
+[2017.12.12-01.09.34:464][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.084276 seconds
+[2017.12.12-01.09.34:471][  0]LogUObjectArray: 35827 objects as part of root set at end of initial load.
+[2017.12.12-01.09.34:471][  0]LogUObjectAllocator: 7529656 out of 0 bytes used by permanent object pool.
+[2017.12.12-01.09.34:471][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.12-01.09.34:588][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.12-01.09.38:714][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.12-01.09.38:782][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.12-01.09.39:925][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.12-01.09.40:650][  0]SourceControl: Source control is disabled
+[2017.12.12-01.09.40:650][  0]SourceControl: Source control is disabled
+[2017.12.12-01.09.40:744][  0]SourceControl: Source control is disabled
+[2017.12.12-01.09.40:844][  0]SourceControl: Source control is disabled
+[2017.12.12-01.09.41:967][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.12-01.09.42:441][  0]LogOcInput: OculusInput pre-init called
+[2017.12.12-01.09.42:903][  0]LogEngine: Initializing Engine...
+[2017.12.12-01.09.42:939][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.12.12-01.09.43:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.12-01.09.43:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.12-01.09.43:496][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.12-01.09.43:546][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.12-01.09.43:617][  0]LogInit: FAudioDevice initialized.
+[2017.12.12-01.09.43:788][  0]LogDerivedDataCache: Saved boot cache 0.17s 94MB C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.12-01.09.43:813][  0]LogInit: Texture streaming: Enabled
+[2017.12.12-01.09.44:026][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.12-01.09.44:435][  0]LogInit: Transaction tracking system initialized
+[2017.12.12-01.09.45:024][  0]BlueprintLog: New page: Editor Load
+[2017.12.12-01.09.46:718][  0]LocalizationService: Localization service is disabled
+[2017.12.12-01.09.48:023][  0]LogConsoleResponse: Display: 
+[2017.12.12-01.09.48:285][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.12-01.09.48:285][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.12-01.09.48:285][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.12-01.09.49:091][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/' took 0.02s
+[2017.12.12-01.09.50:324][  0]SourceControl: Source control is disabled
+[2017.12.12-01.09.50:325][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.12-01.09.50:325][  0]LightingResults: New page: Lighting Build
+[2017.12.12-01.09.50:405][  0]MapCheck: New page: Map Check
+[2017.12.12-01.09.50:405][  0]LightingResults: New page: Lighting Build
+[2017.12.12-01.09.52:299][  0]LogAIModule: Creating AISystem for world ShipInterior
+[2017.12.12-01.09.52:322][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.12-01.09.52:383][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.12-01.09.52:517][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 133.836ms to complete.
+[2017.12.12-01.09.52:517][  0]LogFileHelpers: Loading map 'ShipInterior' took 2.193
+[2017.12.12-01.09.52:603][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.12-01.09.52:736][  0]LogCollectionManager: Loaded 0 collections in 0.003266 seconds
+[2017.12.12-01.09.52:868][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/Collections/' took 0.01s
+[2017.12.12-01.09.52:869][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Developers/JonathanOates/Collections/' took 0.01s
+[2017.12.12-01.09.52:869][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Collections/' took 0.01s
+[2017.12.12-01.09.52:869][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.12-01.09.52:883][  0]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2386 classes and 500 folders.
+[2017.12.12-01.09.53:019][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.12.12-01.09.53:104][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.12.12-01.09.53:194][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.12.12-01.09.53:279][  0]LogSlate: Took 0.000501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.12-01.09.53:283][  0]LogSlate: Took 0.000441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.12-01.09.53:291][  0]LogSlate: Took 0.000434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.12-01.09.53:451][  0]LogRenderer: Reallocating scene render targets to support 1136x652 Format 26 NumSamples 1 (Frame:1).
+[2017.12.12-01.09.53:714][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.12.12-01.09.53:715][  0]LogLoad: (Engine Initialization) Total time: 30.01 seconds
+[2017.12.12-01.09.53:715][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.12-01.09.53:715][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.12-01.09.53:715][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.12-01.09.53:759][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.12-01.09.53:813][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.12-01.09.53:836][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/' took 0.10s
+[2017.12.12-01.09.53:861][  1]LogAssetRegistry: Asset discovery search completed in 21.2877 seconds
+[2017.12.12-01.09.53:864][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.12-01.09.53:864][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2017.12.12-01.09.54:777][ 85]LogSlate: Took 0.000382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.12-01.10.05:348][298]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.12-01.10.05:850][298]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 113 classes and 0 folders.
+[2017.12.12-01.10.06:662][298]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.12-01.10.06:736][298]LogSlate: Took 0.000392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.12-01.10.06:819][299]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.12-01.10.22:726][903]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Jonathan Oates\Desktop\Repositories\ExperimentalGame_VR\Asset Dump 12-11\health square.png)
+[2017.12.12-01.10.22:774][903]LogTexture: Display: Building textures: health_square (AutoDXT, 600X600)
+[2017.12.12-01.10.22:865][903]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Jonathan Oates\Desktop\Repositories\ExperimentalGame_VR\Asset Dump 12-11\timestop.png)
+[2017.12.12-01.10.22:918][903]LogTexture: Display: Building textures: timestop (AutoDXT, 1200X1200)
+[2017.12.12-01.10.37:970][153]LogMaterial: Missing cached shader map for material M_TimeStop, compiling. 
+[2017.12.12-01.10.45:124][827]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.10.47:138][965]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2017.12.12-01.10.47:153][965]LogMaterial: Missing cached shader map for material M_TimeStop, compiling. 
+[2017.12.12-01.10.47:311][965]LogMaterial: Missing cached shader map for material M_TimeStop, compiling. 
+[2017.12.12-01.10.47:337][965]LogMaterial: Missing cached shader map for material M_TimeStop, compiling. 
+[2017.12.12-01.10.47:385][965]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.12-01.10.47:391][965]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-01.10.50:191][146]MaterialEditorStats: Base pass shader: 93 instructions
+[2017.12.12-01.10.50:192][146]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.10.50:192][146]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.10.50:192][146]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.10.51:114][226]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.10.51:218][226]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.10.51:237][226]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.10.51:284][226]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.12-01.10.51:290][226]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-01.10.53:559][438]MaterialEditorStats: Base pass shader: 93 instructions
+[2017.12.12-01.10.53:559][438]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.10.53:559][438]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.10.53:560][438]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.10.56:485][705]LogMaterial: Missing cached shader map for material M_TimeStop, compiling. 
+[2017.12.12-01.10.56:510][705]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-01.10.58:477][913]MaterialEditorStats: Base pass shader: 93 instructions
+[2017.12.12-01.10.58:477][913]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.10.58:477][913]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.10.58:477][913]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.10.59:275][992]LogSavePackage: Save=24.30ms
+[2017.12.12-01.10.59:275][992]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/health_square416DBE3647DCE51310E0B3B753DEA7FA.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Textures/health_square.uasset'
+[2017.12.12-01.10.59:286][992]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Textures/health_square.uasset
+[2017.12.12-01.10.59:384][992]LogSavePackage: Save=79.01ms
+[2017.12.12-01.10.59:384][992]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/timestopC496C5ED4FE8009B430E27ABAEF813B3.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Textures/timestop.uasset'
+[2017.12.12-01.10.59:393][992]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Textures/timestop.uasset
+[2017.12.12-01.10.59:433][992]LogSavePackage: Save=14.31ms
+[2017.12.12-01.10.59:433][992]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/M_TimeStop788E312E45FC679DDE9335B8CF2B5758.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_TimeStop.uasset'
+[2017.12.12-01.10.59:443][992]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_TimeStop.uasset
+[2017.12.12-01.10.59:461][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Health" FILE="../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset" SILENT=true
+[2017.12.12-01.10.59:478][992]LogSavePackage: Save=14.23ms
+[2017.12.12-01.10.59:478][992]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/M_Health635581EF4159E1E9529B8D9A5D36030C.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset'
+[2017.12.12-01.10.59:488][992]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset
+[2017.12.12-01.11.01:933][281]LogMaterial: Missing cached shader map for material M_TimeStop, compiling. 
+[2017.12.12-01.11.04:026][503]MaterialEditorStats: Base pass shader: 93 instructions
+[2017.12.12-01.11.04:027][503]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.11.04:027][503]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.11.04:027][503]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.11.09:700][168]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.11.09:723][168]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-01.11.11:703][381]MaterialEditorStats: Base pass shader: 93 instructions
+[2017.12.12-01.11.11:703][381]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.11.11:703][381]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.11.11:703][381]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.11.15:040][781]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.11.16:986][996]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.12.12-01.11.16:986][996]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.11.16:986][996]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.11.16:986][996]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.11.17:372][ 42]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.11.19:245][234]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.11.19:267][234]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-01.11.21:199][429]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.11.21:226][429]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-01.11.23:206][633]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.12.12-01.11.23:206][633]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.11.23:206][633]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.11.23:206][633]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.11.23:923][716]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.11.25:949][929]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.12.12-01.11.25:949][929]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.11.25:949][929]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.11.25:949][929]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.11.31:711][593]LogRenderer: Reallocating scene render targets to support 1284x792 Format 26 NumSamples 1 (Frame:1).
+[2017.12.12-01.11.49:688][659]LogMaterialEditor: Applying material M_TimeStop
+[2017.12.12-01.11.50:434][659]LogMaterial: Missing cached shader map for material M_TimeStop, compiling. 
+[2017.12.12-01.11.50:499][659]LogMaterial: Missing cached shader map for material M_TimeStop, compiling. 
+[2017.12.12-01.11.50:538][659]LogMaterial: Missing cached shader map for material M_TimeStop, compiling. 
+[2017.12.12-01.11.50:651][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TimeStop, compiling. 
+[2017.12.12-01.11.52:459][659]TextureStreamingBuild: Display: Compiling optional shaders took 1.823 seconds.
+[2017.12.12-01.11.53:242][741]LogMaterialEditor: Saving and Compiling material M_TimeStop
+[2017.12.12-01.11.55:828][741]LogSavePackage: Save=12.90ms
+[2017.12.12-01.11.55:828][741]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/M_TimeStop4D69A3B9482D5D14E200CE980AE59FF1.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_TimeStop.uasset'
+[2017.12.12-01.11.55:838][741]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_TimeStop.uasset
+[2017.12.12-01.11.55:846][741]MaterialEditorStats: Base pass shader: 93 instructions
+[2017.12.12-01.11.55:846][741]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.11.55:846][741]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.11.55:846][741]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.12.36:104][411]BlueprintLog: New page: Compile BP_FreezeDisplay
+[2017.12.12-01.12.38:313][481]LogSavePackage: Save=117.37ms
+[2017.12.12-01.12.38:313][481]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInteriorFD5241DB49E0C298F53CABA0982D61F3.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
+[2017.12.12-01.12.38:323][481]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
+[2017.12.12-01.12.38:375][481]LogFileHelpers: Saving map 'ShipInterior' took 0.452
+[2017.12.12-01.12.38:478][481]LogSavePackage: Save=45.12ms
+[2017.12.12-01.12.38:478][481]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_FreezeDisplay01AD0CF84F4571C445163CBFBB73DC51.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_FreezeDisplay.uasset'
+[2017.12.12-01.12.38:487][481]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_FreezeDisplay.uasset
+[2017.12.12-01.12.45:108][186]LogSavePackage: Save=114.18ms
+[2017.12.12-01.12.45:108][186]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInterior536AB6C9459692574854CC98D33CE612.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
+[2017.12.12-01.12.45:119][186]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
+[2017.12.12-01.12.45:153][186]LogFileHelpers: Saving map 'ShipInterior' took 0.404
+[2017.12.12-01.12.45:254][186]LogSavePackage: Save=44.83ms
+[2017.12.12-01.12.45:254][186]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_FreezeDisplay28CA017B4004BBB0BEE7568C0F4079A2.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_FreezeDisplay.uasset'
+[2017.12.12-01.12.45:264][186]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_FreezeDisplay.uasset
+[2017.12.12-01.12.45:752][244]BlueprintLog: New page: Compile BP_FreezeDisplay
+[2017.12.12-01.12.51:587][779]LogTemp: Repeating last play command: Simulate
+[2017.12.12-01.12.51:649][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.12-01.12.51:649][779]PIE: New page: SIE session: ShipInterior (Dec 11, 2017, 3:12:51 PM)
+[2017.12.12-01.12.51:650][779]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ShipInterior
+[2017.12.12-01.12.51:655][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005059s)
+[2017.12.12-01.12.51:655][779]LogAIModule: Creating AISystem for world ShipInterior
+[2017.12.12-01.12.51:656][779]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2017.12.12-01.12.51:656][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ShipInterior.ShipInterior to /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior (0.006327s)
+[2017.12.12-01.12.51:762][779]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.12-01.12.51:775][779]LogInit: FAudioDevice initialized.
+[2017.12.12-01.12.51:820][779]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.12.12-01.12.51:820][779]LogLoad: Game class is 'GameModeBase'
+[2017.12.12-01.12.51:824][779]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 0) at 2017.12.11-20.12.51
+[2017.12.12-01.12.51:824][779]LogWorld: Bringing up level for play took: 0.002471
+[2017.12.12-01.12.51:825][779]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.12-01.12.51:905][779]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.12.12-01.12.51:912][779]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2017.12.12-01.12.51:912][779]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ShipInterior 0.009
+[2017.12.12-01.13.03:328][956]LogSavePackage: Save=115.15ms
+[2017.12.12-01.13.03:328][956]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInteriorA756528643DC293141741387582C75EB.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
+[2017.12.12-01.13.03:337][956]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
+[2017.12.12-01.13.03:370][956]LogFileHelpers: Saving map 'ShipInterior' took 0.413
+[2017.12.12-01.13.03:470][956]LogSavePackage: Save=44.52ms
+[2017.12.12-01.13.03:470][956]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_FreezeDisplay3C902E3E48CA1DC77794209F0DA3CA0D.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_FreezeDisplay.uasset'
+[2017.12.12-01.13.03:479][956]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_FreezeDisplay.uasset
+[2017.12.12-01.13.23:595][238]LogSavePackage: Save=113.93ms
+[2017.12.12-01.13.23:595][238]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInteriorF6042614461A636208B5B3B38D08CB55.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
+[2017.12.12-01.13.23:605][238]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
+[2017.12.12-01.13.23:638][238]LogFileHelpers: Saving map 'ShipInterior' took 0.403
+[2017.12.12-01.13.23:738][238]LogSavePackage: Save=44.72ms
+[2017.12.12-01.13.23:738][238]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_FreezeDisplay04C191304811A37A03C43C953268F6E5.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_FreezeDisplay.uasset'
+[2017.12.12-01.13.23:748][238]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_FreezeDisplay.uasset
+[2017.12.12-01.13.24:978][357]BlueprintLog: New page: Compile BP_FreezeDisplay
+[2017.12.12-01.13.54:547][557]LogMaterialEditor: Applying material M_Health
+[2017.12.12-01.13.55:281][557]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.13.55:338][557]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.13.55:379][557]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.13.55:474][557]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Health, compiling. 
+[2017.12.12-01.13.57:330][557]TextureStreamingBuild: Display: Compiling optional shaders took 1.864 seconds.
+[2017.12.12-01.14.01:130][938]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.12.12-01.14.01:130][938]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.14.01:131][938]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.14.01:131][938]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.14.15:398][510]LogSavePackage: Save=115.10ms
+[2017.12.12-01.14.15:398][510]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInteriorBE08417848FEB6C1D4C1B38236E139B5.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
+[2017.12.12-01.14.15:408][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
+[2017.12.12-01.14.15:450][510]LogFileHelpers: Saving map 'ShipInterior' took 0.420
+[2017.12.12-01.14.15:601][510]LogSavePackage: Save=92.19ms
+[2017.12.12-01.14.15:601][510]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_HealthDisplay3A16C3514EB9AC43959B9F9A113F704B.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_HealthDisplay.uasset'
+[2017.12.12-01.14.15:610][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_HealthDisplay.uasset
+[2017.12.12-01.14.15:630][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Health" FILE="../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset" SILENT=true
+[2017.12.12-01.14.15:683][510]LogSavePackage: Save=13.99ms
+[2017.12.12-01.14.15:683][510]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/M_Health484200194850E5AF0701B798AF83F705.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset'
+[2017.12.12-01.14.15:693][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset
+[2017.12.12-01.14.52:282][551]LogSavePackage: Save=117.18ms
+[2017.12.12-01.14.52:282][551]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInterior7E0798C648A1050D2082F79507DC94D9.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
+[2017.12.12-01.14.52:291][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
+[2017.12.12-01.14.52:327][551]LogFileHelpers: Saving map 'ShipInterior' took 0.421
+[2017.12.12-01.14.52:471][551]LogSavePackage: Save=88.89ms
+[2017.12.12-01.14.52:471][551]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_HealthDisplay96D106F747F8E2680D5FCEBCBE276562.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_HealthDisplay.uasset'
+[2017.12.12-01.14.52:481][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_HealthDisplay.uasset
+[2017.12.12-01.15.05:922][149]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.08:256][401]MaterialEditorStats: Base pass shader: 90 instructions
+[2017.12.12-01.15.08:256][401]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.15.08:256][401]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.15.08:256][401]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.15.09:549][556]LogMaterialEditor: Applying material M_Health
+[2017.12.12-01.15.10:275][556]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.10:344][556]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.10:379][556]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.10:475][556]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Health, compiling. 
+[2017.12.12-01.15.12:041][556]TextureStreamingBuild: Display: Compiling optional shaders took 1.574 seconds.
+[2017.12.12-01.15.15:711][920]MaterialEditorStats: Base pass shader: 90 instructions
+[2017.12.12-01.15.15:711][920]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.15.15:711][920]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.15.15:711][920]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.15.27:160][223]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.27:183][223]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-01.15.27:992][302]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.30:011][519]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.32:122][747]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.12.12-01.15.32:122][747]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.15.32:122][747]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.15.32:122][747]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.15.32:846][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Health" FILE="../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset" SILENT=true
+[2017.12.12-01.15.32:908][821]LogSavePackage: Save=14.25ms
+[2017.12.12-01.15.32:908][821]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/M_Health370CA089415AB38DED1EB8A6B8B44B26.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset'
+[2017.12.12-01.15.32:918][821]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset
+[2017.12.12-01.15.33:647][908]LogMaterialEditor: Applying material M_Health
+[2017.12.12-01.15.34:380][908]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.34:443][908]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.34:482][908]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.34:589][908]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Health, compiling. 
+[2017.12.12-01.15.36:065][908]TextureStreamingBuild: Display: Compiling optional shaders took 1.484 seconds.
+[2017.12.12-01.15.39:509][241]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.12.12-01.15.39:509][241]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.15.39:509][241]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.15.39:509][241]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.15.57:180][322]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.57:201][322]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.58:423][451]MaterialEditorStats: Base pass shader: 126 instructions
+[2017.12.12-01.15.58:423][451]MaterialEditorStats: Vertex shader: 87 instructions
+[2017.12.12-01.15.58:423][451]MaterialEditorStats: Texture samplers: 2/16
+[2017.12.12-01.15.58:423][451]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.15.58:739][489]LogMaterialEditor: Applying material M_Health
+[2017.12.12-01.15.59:468][489]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.59:516][489]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.59:549][489]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.15.59:647][489]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Health, compiling. 
+[2017.12.12-01.16.00:510][489]TextureStreamingBuild: Display: Compiling optional shaders took 0.871 seconds.
+[2017.12.12-01.16.02:825][712]MaterialEditorStats: Base pass shader: 126 instructions
+[2017.12.12-01.16.02:825][712]MaterialEditorStats: Vertex shader: 87 instructions
+[2017.12.12-01.16.02:825][712]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.12-01.16.02:825][712]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.16.14:856][117]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.16.14:886][117]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.16.16:824][325]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.12.12-01.16.16:824][325]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.16.16:824][325]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.16.16:824][325]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.16.32:173][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Health" FILE="../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset" SILENT=true
+[2017.12.12-01.16.32:237][154]LogSavePackage: Save=15.04ms
+[2017.12.12-01.16.32:237][154]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/M_Health317095A4477B5CCA5684238938C13552.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset'
+[2017.12.12-01.16.32:247][154]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset
+[2017.12.12-01.16.44:157][537]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.16.44:180][537]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-01.16.45:196][644]LogMaterialEditor: Applying material M_Health
+[2017.12.12-01.16.46:225][644]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.16.46:296][644]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.16.46:331][644]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.16.46:432][644]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Health, compiling. 
+[2017.12.12-01.16.47:950][644]TextureStreamingBuild: Display: Compiling optional shaders took 1.526 seconds.
+[2017.12.12-01.16.51:489][981]MaterialEditorStats: Base pass shader: 90 instructions
+[2017.12.12-01.16.51:489][981]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.16.51:489][981]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.16.51:489][981]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.16.56:587][557]LogEditorViewport: Clicking on Actor (LMB): BP_HealthDisplay_C (BP_HealthDisplay)
+[2017.12.12-01.17.03:653][160]LogSavePackage: Save=116.12ms
+[2017.12.12-01.17.03:653][160]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInterior0B9F8C5A4B9E2EB32AA6688E34085B15.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
+[2017.12.12-01.17.03:663][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
+[2017.12.12-01.17.03:707][160]LogFileHelpers: Saving map 'ShipInterior' took 0.431
+[2017.12.12-01.17.03:726][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Health" FILE="../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset" SILENT=true
+[2017.12.12-01.17.03:777][160]LogSavePackage: Save=14.30ms
+[2017.12.12-01.17.03:777][160]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/M_HealthD17009A542903C19B359549971A11562.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset'
+[2017.12.12-01.17.03:786][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset
+[2017.12.12-01.17.34:820][778]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.17.34:837][778]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.12-01.17.37:200][ 38]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.17.37:232][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-01.17.37:271][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.12-01.17.39:341][255]MaterialEditorStats: Base pass shader: 90 instructions
+[2017.12.12-01.17.39:341][255]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.17.39:341][255]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.17.39:341][255]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.17.41:580][520]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.17.41:603][520]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.12-01.17.43:341][705]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.17.43:383][705]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.12-01.17.45:506][938]MaterialEditorStats: Base pass shader: 93 instructions
+[2017.12.12-01.17.45:506][938]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.17.45:506][938]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.17.45:506][938]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.17.46:922][108]LogMaterialEditor: Applying material M_Health
+[2017.12.12-01.17.47:656][108]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.17.47:714][108]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.17.47:745][108]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.17.47:853][108]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Health, compiling. 
+[2017.12.12-01.17.49:341][108]TextureStreamingBuild: Display: Compiling optional shaders took 1.496 seconds.
+[2017.12.12-01.17.52:957][407]MaterialEditorStats: Base pass shader: 93 instructions
+[2017.12.12-01.17.52:957][407]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.17.52:957][407]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.17.52:957][407]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.18.28:342][272]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.12.12-01.18.52:164][ 41]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.18.52:180][ 41]LogMaterial: Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (0 / 0)
+[2017.12.12-01.18.54:405][282]MaterialEditorStats: Base pass shader: 84 instructions
+[2017.12.12-01.18.54:405][282]MaterialEditorStats: Vertex shader: 204 instructions
+[2017.12.12-01.18.54:405][282]MaterialEditorStats: Texture samplers: 4/16
+[2017.12.12-01.19.13:910][589]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.12-01.19.21:027][183]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.19.22:921][313]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.19.23:021][313]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.19.23:047][313]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.19.23:096][313]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.12-01.19.23:102][313]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-01.19.27:286][516]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.19.27:311][516]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-01.19.29:440][619]MaterialEditorStats: Base pass shader: 93 instructions
+[2017.12.12-01.19.29:440][619]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.19.29:440][619]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.19.29:440][619]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.19.31:479][758]LogMaterialEditor: Applying material M_Health
+[2017.12.12-01.19.32:209][758]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.19.32:269][758]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.19.32:305][758]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.19.32:417][758]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Health, compiling. 
+[2017.12.12-01.19.33:943][758]TextureStreamingBuild: Display: Compiling optional shaders took 1.534 seconds.
+[2017.12.12-01.19.37:526][ 30]MaterialEditorStats: Base pass shader: 93 instructions
+[2017.12.12-01.19.37:526][ 30]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.19.37:526][ 30]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.19.37:526][ 30]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.20.07:730][864]BlueprintLog: New page: Compile BP_HealthDisplay
+[2017.12.12-01.20.15:942][560]LogSavePackage: Save=118.30ms
+[2017.12.12-01.20.15:942][560]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInteriorE5EE91044FD4608ADAA8EC8FE233BDF4.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
+[2017.12.12-01.20.15:952][560]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
+[2017.12.12-01.20.15:988][560]LogFileHelpers: Saving map 'ShipInterior' took 0.429
+[2017.12.12-01.20.16:137][560]LogSavePackage: Save=89.97ms
+[2017.12.12-01.20.16:137][560]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_HealthDisplay17B06E4C475EF496C621F9801EBB04E2.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_HealthDisplay.uasset'
+[2017.12.12-01.20.16:146][560]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_HealthDisplay.uasset
+[2017.12.12-01.20.16:167][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Health" FILE="../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset" SILENT=true
+[2017.12.12-01.20.16:182][560]LogSavePackage: Save=11.52ms
+[2017.12.12-01.20.16:182][560]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/M_Health67C09FFA491D1BCEAA1DFDAC347E62A4.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset'
+[2017.12.12-01.20.16:191][560]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset
+[2017.12.12-01.20.16:980][625]LogTemp: Repeating last play command: Simulate
+[2017.12.12-01.20.17:007][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.12-01.20.17:008][625]PIE: New page: SIE session: ShipInterior (Dec 11, 2017, 3:20:17 PM)
+[2017.12.12-01.20.17:008][625]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ShipInterior
+[2017.12.12-01.20.17:013][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005198s)
+[2017.12.12-01.20.17:014][625]LogAIModule: Creating AISystem for world ShipInterior
+[2017.12.12-01.20.17:014][625]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2017.12.12-01.20.17:014][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ShipInterior.ShipInterior to /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior (0.006432s)
+[2017.12.12-01.20.17:116][625]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.12-01.20.17:130][625]LogInit: FAudioDevice initialized.
+[2017.12.12-01.20.17:162][625]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.12.12-01.20.17:162][625]LogLoad: Game class is 'GameModeBase'
+[2017.12.12-01.20.17:164][625]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 0) at 2017.12.11-20.20.17
+[2017.12.12-01.20.17:165][625]LogWorld: Bringing up level for play took: 0.002348
+[2017.12.12-01.20.17:165][625]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.12-01.20.17:171][625]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2017.12.12-01.20.17:172][625]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ShipInterior -0.731
+[2017.12.12-01.21.06:460][926]LogMaterialEditor: Saving and Compiling material M_Health
+[2017.12.12-01.21.06:480][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Health" FILE="../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset" SILENT=true
+[2017.12.12-01.21.06:530][926]LogSavePackage: Save=6.36ms
+[2017.12.12-01.21.06:530][926]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/M_Health16D8AC7E4F151008FA43C88F7483D7A3.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset'
+[2017.12.12-01.21.06:535][926]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset
+[2017.12.12-01.21.20:787][555]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.21.22:817][779]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.21.22:850][779]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-01.21.24:983][ 18]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.12.12-01.21.24:983][ 18]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.21.24:983][ 18]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.21.24:983][ 18]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.21.28:000][380]LogMaterialEditor: Applying material M_Health
+[2017.12.12-01.21.28:729][380]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.21.28:788][380]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.21.28:826][380]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.21.28:933][380]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Health, compiling. 
+[2017.12.12-01.21.30:427][380]TextureStreamingBuild: Display: Compiling optional shaders took 1.504 seconds.
+[2017.12.12-01.21.34:163][704]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.12.12-01.21.34:163][704]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.21.34:163][704]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.21.34:163][704]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.21.40:020][368]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.21.42:505][626]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.21.42:532][626]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-01.21.44:546][830]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.12.12-01.21.44:546][830]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.21.44:546][830]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.21.44:546][830]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.21.45:219][910]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.21.47:219][121]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.12.12-01.21.47:219][121]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.21.47:220][121]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.21.47:220][121]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.21.47:695][178]LogMaterialEditor: Applying material M_Health
+[2017.12.12-01.21.48:419][178]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.21.48:477][178]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.21.48:523][178]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.21.48:621][178]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Health, compiling. 
+[2017.12.12-01.21.50:141][178]TextureStreamingBuild: Display: Compiling optional shaders took 1.529 seconds.
+[2017.12.12-01.21.53:776][497]MaterialEditorStats: Base pass shader: 91 instructions
+[2017.12.12-01.21.53:776][497]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.21.53:776][497]MaterialEditorStats: Texture samplers: 5/16
+[2017.12.12-01.21.53:776][497]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.22.00:503][185]LogEditorViewport: Clicking on Actor (context menu): BP_ControlTable_C (BP_ControlTable)
+[2017.12.12-01.22.14:538][666]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.22.14:557][666]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.22.15:778][791]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2017.12.12-01.22.15:778][791]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.22.15:778][791]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.12-01.22.15:778][791]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.22.16:111][831]LogMaterialEditor: Applying material M_Health
+[2017.12.12-01.22.16:846][831]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.22.16:899][831]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.22.16:918][831]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.22.17:012][831]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Health, compiling. 
+[2017.12.12-01.22.17:584][831]TextureStreamingBuild: Display: Compiling optional shaders took 0.578 seconds.
+[2017.12.12-01.22.19:350][975]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2017.12.12-01.22.19:350][975]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.22.19:350][975]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.12-01.22.19:350][975]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.22.58:440][591]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.22.58:451][591]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.22.59:752][729]LogMaterialEditor: Applying material M_Health
+[2017.12.12-01.23.00:519][729]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.23.00:560][729]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.23.00:581][729]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.23.00:662][729]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Health, compiling. 
+[2017.12.12-01.23.01:260][729]TextureStreamingBuild: Display: Compiling optional shaders took 0.616 seconds.
+[2017.12.12-01.23.03:149][895]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2017.12.12-01.23.03:149][895]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.23.03:149][895]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.12-01.23.03:149][895]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.24.16:329][ 30]LogEditorTransaction: Undo Modify Component(s)
+[2017.12.12-01.24.16:338][ 30]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.24.17:598][151]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2017.12.12-01.24.17:598][151]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.24.17:598][151]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.12-01.24.17:598][151]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.24.37:670][379]LogEditorTransaction: Undo Modify Component(s)
+[2017.12.12-01.24.37:680][379]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.24.38:946][518]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2017.12.12-01.24.38:946][518]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.24.38:946][518]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.12-01.24.38:946][518]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.25.23:047][544]BlueprintLog: New page: Compile BP_HealthDisplay
+[2017.12.12-01.26.34:307][989]BlueprintLog: New page: Compile BP_HealthDisplay
+[2017.12.12-01.26.36:647][ 71]LogSavePackage: Save=115.90ms
+[2017.12.12-01.26.36:647][ 71]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInterior6CBD03AC4EE9F587F069939F70508B6F.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
+[2017.12.12-01.26.36:657][ 71]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
+[2017.12.12-01.26.36:693][ 71]LogFileHelpers: Saving map 'ShipInterior' took 0.436
+[2017.12.12-01.26.36:847][ 71]LogSavePackage: Save=91.98ms
+[2017.12.12-01.26.36:847][ 71]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_HealthDisplay0988034D4E0134244BBB62A57805295B.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_HealthDisplay.uasset'
+[2017.12.12-01.26.36:856][ 71]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_HealthDisplay.uasset
+[2017.12.12-01.26.36:875][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Health" FILE="../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset" SILENT=true
+[2017.12.12-01.26.36:933][ 71]LogSavePackage: Save=15.28ms
+[2017.12.12-01.26.36:933][ 71]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/M_HealthFFCF0D9A485EA8E1015925AF5856F14D.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset'
+[2017.12.12-01.26.36:943][ 71]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset
+[2017.12.12-01.26.52:876][777]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.26.54:113][912]MaterialEditorStats: Base pass shader without light map: 69 instructions
+[2017.12.12-01.26.54:113][912]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.26.54:113][912]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.12-01.26.54:113][912]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.26.54:231][926]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.26.54:247][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_0, compiling. 
+[2017.12.12-01.26.55:133][ 14]MaterialEditorStats: Base pass shader without light map: 69 instructions
+[2017.12.12-01.26.55:133][ 14]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.26.55:133][ 14]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.12-01.26.55:133][ 14]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.26.56:622][192]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.26.57:499][292]MaterialEditorStats: Base pass shader without light map: 69 instructions
+[2017.12.12-01.26.57:500][292]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.26.57:500][292]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.12-01.26.57:500][292]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.27.04:556][128]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.27.04:566][128]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.27.04:601][128]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.12.12-01.27.05:472][219]MaterialEditorStats: Base pass shader without light map: 69 instructions
+[2017.12.12-01.27.05:473][219]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.27.05:473][219]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.12-01.27.05:473][219]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.27.09:918][751]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.27.10:809][850]MaterialEditorStats: Base pass shader without light map: 69 instructions
+[2017.12.12-01.27.10:809][850]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.27.10:809][850]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.12-01.27.10:809][850]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.27.12:068][  0]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_1, compiling. 
+[2017.12.12-01.27.14:617][303]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.27.14:632][303]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_1, compiling. 
+[2017.12.12-01.27.15:541][397]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2017.12.12-01.27.15:541][397]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.27.15:541][397]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.12-01.27.15:541][397]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.27.16:614][524]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.27.16:627][524]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_1, compiling. 
+[2017.12.12-01.27.17:520][617]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2017.12.12-01.27.17:520][617]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.27.17:520][617]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.12-01.27.17:520][617]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.27.18:936][783]LogMaterialEditor: Applying material M_Health
+[2017.12.12-01.27.19:660][783]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.12.12-01.27.19:702][783]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.27.19:722][783]LogMaterial: Missing cached shader map for material M_Health, compiling. 
+[2017.12.12-01.27.19:803][783]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Health, compiling. 
+[2017.12.12-01.27.20:353][783]TextureStreamingBuild: Display: Compiling optional shaders took 0.557 seconds.
+[2017.12.12-01.27.22:159][931]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2017.12.12-01.27.22:159][931]MaterialEditorStats: Vertex shader: 206 instructions
+[2017.12.12-01.27.22:159][931]MaterialEditorStats: Texture samplers: 3/16
+[2017.12.12-01.27.22:159][931]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.12.12-01.27.29:822][745]LogSavePackage: Save=115.58ms
+[2017.12.12-01.27.29:822][745]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInteriorEA6C7BBF4438AB26B29DA6A675CC2BDF.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
+[2017.12.12-01.27.29:832][745]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
+[2017.12.12-01.27.29:884][745]LogFileHelpers: Saving map 'ShipInterior' took 0.439
+[2017.12.12-01.27.30:007][745]LogSavePackage: Save=82.88ms
+[2017.12.12-01.27.30:007][745]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_HealthDisplayC48DD3BB4FAE6B3A30B4F9B3B5EC9D29.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_HealthDisplay.uasset'
+[2017.12.12-01.27.30:017][745]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_HealthDisplay.uasset
+[2017.12.12-01.27.30:039][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Health" FILE="../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset" SILENT=true
+[2017.12.12-01.27.30:087][745]LogSavePackage: Save=10.75ms
+[2017.12.12-01.27.30:087][745]LogSavePackage: Moving '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/M_Health16C84AD3452F380EE16CF3A4AAD8FF8B.tmp' to '../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset'
+[2017.12.12-01.27.30:098][745]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jonathan Oates/Desktop/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Materials/M_Health.uasset
