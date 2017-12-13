@@ -1,17 +1,15 @@
-﻿Log file open, 12/12/17 18:50:50
+﻿Log file open, 12/12/17 20:40:05
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: KairosVR_new
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-192651403) SRandInit(-192651403).
+LogInit: Display: RandInit(979918328) SRandInit(979918328).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 2.777237
+LogStats: Stats thread started at 0.157079
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -109,860 +107,692 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
 LogInit: Command line:  
-LogInit: Base directory: D:/ProgramFiles/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.12.12-23.50.52:183][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.12-23.50.52:183][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.12.12-23.50.52:228][  0]LogInit: Computer: DESKTOP-QLCPO53
-[2017.12.12-23.50.52:228][  0]LogInit: User: JonathanOates
-[2017.12.12-23.50.52:228][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.12.12-23.50.52:228][  0]LogInit: High frequency timer resolution =2.742187 MHz
-[2017.12.12-23.50.52:229][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.12.12-23.50.52:229][  0]LogMemory: Platform Memory Stats for Windows
-[2017.12.12-23.50.52:229][  0]LogMemory: Process Physical Memory: 280.05 MB used, 280.05 MB peak
-[2017.12.12-23.50.52:229][  0]LogMemory: Process Virtual Memory: 274.43 MB used, 274.43 MB peak
-[2017.12.12-23.50.52:229][  0]LogMemory: Physical Memory: 4428.57 MB used,  11821.70 MB free, 16250.27 MB total
-[2017.12.12-23.50.52:229][  0]LogMemory: Virtual Memory: 688.48 MB used,  11821.70 MB free, 134217728.00 MB total
-[2017.12.12-23.50.54:206][  0]LogInit: Using OS detected language (en-US).
-[2017.12.12-23.50.54:206][  0]LogInit: Using OS detected locale (en-US).
-[2017.12.12-23.50.54:387][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.12.12-23.50.56:549][  0]LogD3D11RHI: D3D11 adapters:
-[2017.12.12-23.50.56:906][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2017.12.12-23.50.56:906][  0]LogD3D11RHI:       4014/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.12.12-23.50.56:917][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2017.12.12-23.50.56:917][  0]LogD3D11RHI:       128/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.12.12-23.50.56:920][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.12.12-23.50.56:920][  0]LogD3D11RHI:       0/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.12.12-23.50.56:920][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.12.12-23.50.56:926][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.12.12-23.50.56:926][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
-[2017.12.12-23.50.56:926][  0]LogWindows: EnumDisplayDevices:
-[2017.12.12-23.50.56:926][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2017.12.12-23.50.56:926][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2017.12.12-23.50.56:926][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2017.12.12-23.50.56:927][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2017.12.12-23.50.56:927][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.12.12-23.50.56:927][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2017.12.12-23.50.56:927][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.12.12-23.50.56:927][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.12.12-23.50.56:927][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.12.12-23.50.56:981][  0]LogD3D11RHI: Async texture creation enabled
-[2017.12.12-23.50.57:126][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.12.12-23.50.57:178][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Intermediate/Shaders/WorkingDirectory/13232/).
-[2017.12.12-23.50.57:179][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jonathan Oates/AppData/Local/Temp/UnrealShaderWorkingDir/4BE0FD79412FE0787D10D08908F844FA/'.
-[2017.12.12-23.50.57:179][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.12.12-23.51.00:032][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.12.12-23.51.00:143][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.12.12-23.51.00:257][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.12.12-23.51.00:317][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.12.12-23.51.00:401][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.12.12-23.51.00:492][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.12.12-23.51.00:596][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.12.12-23.51.00:676][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.12.12-23.51.00:731][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.12.12-23.51.00:801][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.12.12-23.51.00:862][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.12.12-23.51.00:939][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.12.12-23.51.01:000][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.12.12-23.51.01:108][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.12.12-23.51.01:181][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.12.12-23.51.01:309][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.12.12-23.51.01:309][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.12.12-23.51.01:362][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.12.12-23.51.01:528][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.12.12-23.51.01:568][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.12.12-23.51.01:631][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.12.12-23.51.01:702][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.12.12-23.51.01:763][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.12.12-23.51.01:835][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.12.12-23.51.01:835][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.12.12-23.51.03:899][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.12.12-23.51.04:568][  0]LogDerivedDataCache: Loaded boot cache 0.67s 93MB C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.12.12-23.51.04:568][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.12.12-23.51.04:568][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.12.12-23.51.04:568][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.12.12-23.51.04:568][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.12.12-23.51.04:568][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.12.12-23.51.04:632][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.12.12-23.51.04:653][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.12.12-23.51.04:662][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.12.12-23.51.04:663][  0]LogSlate: Using Freetype 2.6.0
-[2017.12.12-23.51.04:721][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.12-23.51.04:721][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.12.12-23.51.08:499][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
-[2017.12.12-23.51.08:810][  0]LogInit: Selected Device Profile: [Windows]
-[2017.12.12-23.51.11:259][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.12.12-23.51.12:969][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.12.12-23.51.13:124][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.12.12-23.51.13:124][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.12.12-23.51.13:124][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.12.12-23.51.13:124][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.12.12-23.51.13:124][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.12.12-23.51.14:415][  0]LogNetVersion: KairosVR_new , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3281661072)
-[2017.12.12-23.51.15:109][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.108576 seconds
-[2017.12.12-23.51.15:114][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.12.12-23.51.15:114][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.12.12-23.51.15:114][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.12.12-23.51.15:239][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.12.12-23.51.31:447][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.12.12-23.51.31:564][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.12.12-23.51.33:070][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.12.12-23.51.33:765][  0]SourceControl: Source control is disabled
-[2017.12.12-23.51.33:765][  0]SourceControl: Source control is disabled
-[2017.12.12-23.51.33:956][  0]SourceControl: Source control is disabled
-[2017.12.12-23.51.34:158][  0]SourceControl: Source control is disabled
-[2017.12.12-23.51.36:034][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.12.12-23.51.36:550][  0]LogOcInput: OculusInput pre-init called
-[2017.12.12-23.51.37:077][  0]LogEngine: Initializing Engine...
-[2017.12.12-23.51.37:080][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.12.12-23.51.37:413][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.12.12-23.51.37:413][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.12.12-23.51.37:584][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.12.12-23.51.37:599][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.12-23.51.38:968][  0]LogInit: FAudioDevice initialized.
-[2017.12.12-23.51.39:263][  0]LogDerivedDataCache: Saved boot cache 0.29s 93MB C:/Users/Jonathan Oates/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.12.12-23.51.39:272][  0]LogInit: Texture streaming: Enabled
-[2017.12.12-23.51.39:438][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.12.12-23.51.40:488][  0]LogInit: Transaction tracking system initialized
-[2017.12.12-23.51.41:161][  0]BlueprintLog: New page: Editor Load
-[2017.12.12-23.51.44:266][  0]LocalizationService: Localization service is disabled
-[2017.12.12-23.51.46:763][  0]LogConsoleResponse: Display: 
-[2017.12.12-23.51.48:148][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.12.12-23.51.48:148][  0]LogCook: Display: Mobile HDR setting 1
-[2017.12.12-23.51.48:148][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.12.12-23.51.48:423][  0]LogFileCache: Scanning file cache for directory 'D:/Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/' took 0.02s
-[2017.12.12-23.51.52:179][  0]SourceControl: Source control is disabled
-[2017.12.12-23.51.52:180][  0]Cmd: MAP LOAD FILE="../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.12.12-23.51.52:181][  0]LightingResults: New page: Lighting Build
-[2017.12.12-23.51.52:246][  0]MapCheck: New page: Map Check
-[2017.12.12-23.51.52:247][  0]LightingResults: New page: Lighting Build
-[2017.12.12-23.51.53:774][  0]LogTexture: Display: Building textures: railgun (AutoDXT, 1500X1200)
-[2017.12.12-23.51.53:774][  0]LogTexture: Display: Building textures: Minigun (AutoDXT, 1200X1200)
-[2017.12.12-23.51.53:774][  0]LogTexture: Display: Building textures: binary_texture (AutoDXT, 500X500)
-[2017.12.12-23.51.53:774][  0]LogTexture: Display: Building textures: timestop (AutoDXT, 1200X1200)
-[2017.12.12-23.51.53:774][  0]LogTexture: Display: Building textures: health_shield (AutoDXT, 600X600)
-[2017.12.12-23.51.53:774][  0]LogMaterial: Missing cached shader map for material M_Railgun, compiling. 
-[2017.12.12-23.51.53:819][  0]LogMaterial: Missing cached shader map for material M_Minigun, compiling. 
-[2017.12.12-23.51.53:992][  0]LogMaterial: Missing cached shader map for material lambert1, compiling. 
-[2017.12.12-23.51.54:018][  0]LogStaticMesh: Building static mesh ship_02...
-[2017.12.12-23.51.54:073][  0]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/Ship/ship_02.ship_02
-[2017.12.12-23.51.54:270][  0]LogStaticMesh: Building static mesh Holographic_Screen_01...
-[2017.12.12-23.51.54:273][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/GUI/Holographic_Screen_01.Holographic_Screen_01
-[2017.12.12-23.51.54:279][  0]LogStaticMesh: Building static mesh Holographic_Screen_02...
-[2017.12.12-23.51.54:282][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/GUI/Holographic_Screen_02.Holographic_Screen_02
-[2017.12.12-23.51.54:436][  0]LogMaterial: Missing cached shader map for material M_Health, compiling. 
-[2017.12.12-23.51.54:510][  0]LogStaticMesh: Building static mesh minigun_02...
-[2017.12.12-23.51.54:571][  0]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/Ship/minigun_02.minigun_02
-[2017.12.12-23.51.54:581][  0]LogMaterial: Missing cached shader map for material M_TimeStop, compiling. 
-[2017.12.12-23.51.54:655][  0]LogMaterial: Missing cached shader map for material hologram07, compiling. 
-[2017.12.12-23.51.54:709][  0]LogStaticMesh: Building static mesh screws_wallVert...
-[2017.12.12-23.51.54:947][  0]LogStaticMesh: Built static mesh [0.24s] /Game/Assets/Interior/screws_wallVert.screws_wallVert
-[2017.12.12-23.51.54:957][  0]LogStaticMesh: Building static mesh railgun_01...
-[2017.12.12-23.51.54:974][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Ship/railgun_01.railgun_01
-[2017.12.12-23.51.54:975][  0]LogStaticMesh: Building static mesh ast_06...
-[2017.12.12-23.51.54:989][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Asteroids/ast_06.ast_06
-[2017.12.12-23.51.54:992][  0]LogStaticMesh: Building static mesh ast_05...
-[2017.12.12-23.51.55:014][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Asteroids/ast_05.ast_05
-[2017.12.12-23.51.55:018][  0]LogStaticMesh: Building static mesh ast_04...
-[2017.12.12-23.51.55:030][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Asteroids/ast_04.ast_04
-[2017.12.12-23.51.55:032][  0]LogStaticMesh: Building static mesh ast_03...
-[2017.12.12-23.51.55:044][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Asteroids/ast_03.ast_03
-[2017.12.12-23.51.55:050][  0]LogMaterial: Missing cached shader map for material hologram05, compiling. 
-[2017.12.12-23.51.55:085][  0]LogMaterial: Missing cached shader map for material hologram04, compiling. 
-[2017.12.12-23.51.55:121][  0]LogMaterial: Missing cached shader map for material lambert1, compiling. 
-[2017.12.12-23.51.55:137][  0]LogStaticMesh: Building static mesh ast_02...
-[2017.12.12-23.51.55:148][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Asteroids/ast_02.ast_02
-[2017.12.12-23.51.55:156][  0]LogStaticMesh: Building static mesh ast_01...
-[2017.12.12-23.51.55:166][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Asteroids/ast_01.ast_01
-[2017.12.12-23.51.55:171][  0]LogMaterial: Missing cached shader map for material lambert1, compiling. 
-[2017.12.12-23.51.55:193][  0]LogStaticMesh: Building static mesh bullet_Minigun_01...
-[2017.12.12-23.51.55:225][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/bullet_Minigun_01.bullet_Minigun_01
-[2017.12.12-23.51.55:286][  0]LogStaticMesh: Building static mesh Field_of_Play_2-0...
-[2017.12.12-23.51.55:288][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Table/Field_of_Play_2-0.Field_of_Play_2-0
-[2017.12.12-23.51.55:292][  0]LogStaticMesh: Building static mesh handles_wallHorz...
-[2017.12.12-23.51.55:449][  0]LogStaticMesh: Built static mesh [0.16s] /Game/Assets/Interior/handles_wallHorz.handles_wallHorz
-[2017.12.12-23.51.55:467][  0]LogStaticMesh: Building static mesh handles_wallVert...
-[2017.12.12-23.51.55:585][  0]LogStaticMesh: Built static mesh [0.12s] /Game/Assets/Interior/handles_wallVert.handles_wallVert
-[2017.12.12-23.51.55:609][  0]LogStaticMesh: Building static mesh lights_ceiling...
-[2017.12.12-23.51.55:695][  0]LogStaticMesh: Built static mesh [0.09s] /Game/Assets/Interior/lights_ceiling.lights_ceiling
-[2017.12.12-23.51.55:707][  0]LogStaticMesh: Building static mesh lights_wall...
-[2017.12.12-23.51.55:752][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/Interior/lights_wall.lights_wall
-[2017.12.12-23.51.55:756][  0]LogStaticMesh: Building static mesh mainRoom_03_mats...
-[2017.12.12-23.51.55:771][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Interior/mainRoom_03_mats.mainRoom_03_mats
-[2017.12.12-23.51.55:773][  0]LogStaticMesh: Building static mesh screws_wallHorz...
-[2017.12.12-23.51.56:087][  0]LogStaticMesh: Built static mesh [0.31s] /Game/Assets/Interior/screws_wallHorz.screws_wallHorz
-[2017.12.12-23.51.56:105][  0]LogMaterial: Missing cached shader map for material hologram03, compiling. 
-[2017.12.12-23.51.56:186][  0]LogStaticMesh: Building static mesh bullet_Railgun_01...
-[2017.12.12-23.51.56:209][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/bullet_Railgun_01.bullet_Railgun_01
-[2017.12.12-23.51.56:224][  0]LogMaterial: Missing cached shader map for material metal_3, compiling. 
-[2017.12.12-23.51.56:249][  0]LogMaterial: Missing cached shader map for material metal_2, compiling. 
-[2017.12.12-23.51.56:283][  0]LogMaterial: Missing cached shader map for material lightmetal, compiling. 
-[2017.12.12-23.51.56:309][  0]LogMaterial: Missing cached shader map for material metal_1, compiling. 
-[2017.12.12-23.51.56:333][  0]LogMaterial: Missing cached shader map for material lightbulb, compiling. 
-[2017.12.12-23.51.56:363][  0]LogMaterial: Missing cached shader map for material wall_metal_1, compiling. 
-[2017.12.12-23.51.56:391][  0]LogMaterial: Missing cached shader map for material lambert1, compiling. 
-[2017.12.12-23.51.56:417][  0]LogMaterial: Missing cached shader map for material floor_metal_1, compiling. 
-[2017.12.12-23.51.56:447][  0]LogMaterial: Missing cached shader map for material ceiling_metal_1, compiling. 
-[2017.12.12-23.51.56:513][  0]LogMaterial: Missing cached shader map for material hologram02, compiling. 
-[2017.12.12-23.51.56:582][  0]LogMaterial: Missing cached shader map for material wall_metal_2, compiling. 
-[2017.12.12-23.51.56:639][  0]LogAIModule: Creating AISystem for world ShipInterior
-[2017.12.12-23.51.56:690][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.12.12-23.51.56:717][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.12.12-23.51.56:890][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 172.214ms to complete.
-[2017.12.12-23.51.56:890][  0]LogFileHelpers: Loading map 'ShipInterior' took 4.710
-[2017.12.12-23.51.57:230][  0]LogCollectionManager: Loaded 0 collections in 0.002976 seconds
-[2017.12.12-23.51.57:360][  0]LogFileCache: Scanning file cache for directory 'D:/Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/Collections/' took 0.01s
-[2017.12.12-23.51.57:360][  0]LogFileCache: Scanning file cache for directory 'D:/Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Developers/JonathanOates/Collections/' took 0.01s
-[2017.12.12-23.51.57:360][  0]LogFileCache: Scanning file cache for directory 'D:/Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Collections/' took 0.01s
-[2017.12.12-23.51.57:360][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.12.12-23.51.57:375][  0]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 2386 classes and 500 folders.
-[2017.12.12-23.51.57:491][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
-[2017.12.12-23.51.58:750][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
-[2017.12.12-23.51.58:967][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
-[2017.12.12-23.51.59:129][  0]LogSlate: Took 0.027763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.12-23.51.59:137][  0]LogSlate: Took 0.005845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.12.12-23.51.59:177][  0]LogSlate: Took 0.031663 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.12.12-23.51.59:351][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 26 NumSamples 1 (Frame:1).
-[2017.12.12-23.52.00:534][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
-[2017.12.12-23.52.00:535][  0]LogLoad: (Engine Initialization) Total time: 80.70 seconds
-[2017.12.12-23.52.00:535][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.12.12-23.52.00:535][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.12.12-23.52.00:911][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.12.12-23.52.01:016][  0]LogSlate: Took 0.015825 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.12-23.52.01:208][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/' took 0.32s
-[2017.12.12-23.52.01:549][  2]LogAssetRegistry: Asset discovery search completed in 53.0718 seconds
-[2017.12.12-23.52.01:552][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.12.12-23.52.01:552][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000145 seconds (updated 0 objects)
-[2017.12.12-23.52.01:904][  3]LogSlate: Took 0.001097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.12-23.52.12:773][ 86]LogStreaming: Warning: Failed to open ANSI TEXT file D:/Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/HardwareSurvey/dxdiag.txt
-[2017.12.12-23.52.13:156][ 87]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
-[2017.12.12-23.52.13:156][ 87]LogSynthBenchmark: Display: ===============
-[2017.12.12-23.52.13:156][ 87]LogSynthBenchmark: Display: Main Processor:
-[2017.12.12-23.52.13:386][ 87]LogSynthBenchmark: Display:          ... 0.024725 s/Run 'RayIntersect'
-[2017.12.12-23.52.13:386][ 87]LogSynthBenchmark: Display:          ... 0.021388 s/Run 'Fractal'
-[2017.12.12-23.52.13:386][ 87]LogSynthBenchmark: Display: 
-[2017.12.12-23.52.13:386][ 87]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
-[2017.12.12-23.52.13:386][ 87]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
-[2017.12.12-23.52.13:386][ 87]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
-[2017.12.12-23.52.13:386][ 87]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
-[2017.12.12-23.52.13:387][ 87]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 16
-[2017.12.12-23.52.13:387][ 87]LogSynthBenchmark: Display:   NumberOfCores (physical): 4
-[2017.12.12-23.52.13:387][ 87]LogSynthBenchmark: Display:   NumberOfCores (logical): 8
-[2017.12.12-23.52.13:387][ 87]LogSynthBenchmark: Display:   CPU Perf Index 0: 103.6 (weight 1.00)
-[2017.12.12-23.52.13:387][ 87]LogSynthBenchmark: Display:   CPU Perf Index 1: 133.7 (weight 1.50)
-[2017.12.12-23.52.13:387][ 87]LogSynthBenchmark: Display:  
-[2017.12.12-23.52.13:387][ 87]LogSynthBenchmark: Display: Graphics:
-[2017.12.12-23.52.13:387][ 87]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce GTX 1050 Ti'
-[2017.12.12-23.52.13:387][ 87]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
-[2017.12.12-23.52.13:387][ 87]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
-[2017.12.12-23.52.13:387][ 87]LogSynthBenchmark: Display:   Device Id: 0x1C8C
-[2017.12.12-23.52.13:387][ 87]LogSynthBenchmark: Display:   Device Revision: 0xA1
-[2017.12.12-23.52.13:387][ 87]LogSynthBenchmark: Display:   GPU Memory: 4014/0/8126 MB
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:   GPU first test: 0.15s
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... 0.422 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... 0.350 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... 0.320 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... 2.368 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... 0.067 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... 0.389 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... 0.349 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:   GPU Final Results:
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... 0.422 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... 0.350 s/GigaPix, Confidence=100% 'TexHeavy'
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... 0.320 s/GigaPix, Confidence=100% 'DepTexHeavy'
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... 2.368 s/GigaPix, Confidence=100% 'FillOnly'
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... 0.067 s/GigaPix, Confidence=100% 'Bandwidth'
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... 0.389 s/GigaVert, Confidence=100% 'VertThroughPut1'
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... 0.349 s/GigaVert, Confidence=100% 'VertThroughPut2'
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display: 
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:   GPU Perf Index 0: 9.2 (weight 1.00)
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:   GPU Perf Index 1: 4.7 (weight 0.10)
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:   GPU Perf Index 2: 8.3 (weight 0.10)
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:   GPU Perf Index 3: 9.3 (weight 3.00)
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:   GPU Perf Index 4: 6.3 (weight 1.00)
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:   GPU Perf Index 5: 25.3 (weight 0.00)
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:   GPU Perf Index 6: 19.8 (weight 0.00)
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:   CPUIndex: 121.7
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:   GPUIndex: 8.6
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display: 
-[2017.12.12-23.52.13:619][ 87]LogSynthBenchmark: Display:          ... Total Time: 0.463797 sec
-[2017.12.12-23.53.42:851][330]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.12.12-23.53.43:005][330]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/Sounds/WAV files/alarm.wav)
-[2017.12.12-23.53.43:061][330]LogAudioDerivedData: Display: Building compressed audio format OGG wave alarm...
-[2017.12.12-23.53.44:024][330]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/alarm.alarm.
-[2017.12.12-23.53.44:033][330]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/Sounds/WAV files/arcadecrash.wav)
-[2017.12.12-23.53.44:036][330]LogAudioDerivedData: Display: Building compressed audio format OGG wave arcadecrash...
-[2017.12.12-23.53.44:051][330]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/arcadecrash.arcadecrash.
-[2017.12.12-23.53.44:057][330]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/Sounds/WAV files/asteroid_1.wav)
-[2017.12.12-23.53.44:061][330]LogAudioDerivedData: Display: Building compressed audio format OGG wave asteroid_1...
-[2017.12.12-23.53.44:088][330]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/asteroid_1.asteroid_1.
-[2017.12.12-23.53.44:094][330]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/Sounds/WAV files/asteroid_2.wav)
-[2017.12.12-23.53.44:100][330]LogAudioDerivedData: Display: Building compressed audio format OGG wave asteroid_2...
-[2017.12.12-23.53.44:125][330]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/asteroid_2.asteroid_2.
-[2017.12.12-23.53.44:132][330]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/Sounds/WAV files/asteroid_3.wav)
-[2017.12.12-23.53.44:136][330]LogAudioDerivedData: Display: Building compressed audio format OGG wave asteroid_3...
-[2017.12.12-23.53.44:162][330]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/asteroid_3.asteroid_3.
-[2017.12.12-23.53.44:170][330]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/Sounds/WAV files/background_noise.wav)
-[2017.12.12-23.53.44:175][330]LogAudioDerivedData: Display: Building compressed audio format OGG wave background_noise...
-[2017.12.12-23.53.44:230][330]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/background_noise.background_noise.
-[2017.12.12-23.53.44:232][330]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/Sounds/WAV files/counterblip.wav)
-[2017.12.12-23.53.44:234][330]LogAudioDerivedData: Display: Building compressed audio format OGG wave counterblip...
-[2017.12.12-23.53.44:249][330]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/counterblip.counterblip.
-[2017.12.12-23.53.44:257][330]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/Sounds/WAV files/endgame.wav)
-[2017.12.12-23.53.44:262][330]LogAudioDerivedData: Display: Building compressed audio format OGG wave endgame...
-[2017.12.12-23.53.44:354][330]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/endgame.endgame.
-[2017.12.12-23.53.44:357][330]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/Sounds/WAV files/minigun.wav)
-[2017.12.12-23.53.44:359][330]LogAudioDerivedData: Display: Building compressed audio format OGG wave minigun...
-[2017.12.12-23.53.44:370][330]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/minigun.minigun.
-[2017.12.12-23.53.44:374][330]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/Sounds/WAV files/railgun.wav)
-[2017.12.12-23.53.44:378][330]LogAudioDerivedData: Display: Building compressed audio format OGG wave railgun...
-[2017.12.12-23.53.44:430][330]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/railgun.railgun.
-[2017.12.12-23.53.44:433][330]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/Sounds/WAV files/shipcrash_1.wav)
-[2017.12.12-23.53.44:436][330]LogAudioDerivedData: Display: Building compressed audio format OGG wave shipcrash_1...
-[2017.12.12-23.53.44:463][330]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/shipcrash_1.shipcrash_1.
-[2017.12.12-23.53.44:466][330]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/Sounds/WAV files/shipcrash_2.wav)
-[2017.12.12-23.53.44:470][330]LogAudioDerivedData: Display: Building compressed audio format OGG wave shipcrash_2...
-[2017.12.12-23.53.44:519][330]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/shipcrash_2.shipcrash_2.
-[2017.12.12-23.53.44:531][330]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/Sounds/WAV files/timeslow.wav)
-[2017.12.12-23.53.44:542][330]LogAudioDerivedData: Display: Building compressed audio format OGG wave timeslow...
-[2017.12.12-23.53.44:615][330]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/timeslow.timeslow.
-[2017.12.12-23.53.44:618][330]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/Sounds/WAV files/weaponchange.wav)
-[2017.12.12-23.53.44:623][330]LogAudioDerivedData: Display: Building compressed audio format OGG wave weaponchange...
-[2017.12.12-23.53.44:645][330]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/weaponchange.weaponchange.
-[2017.12.12-23.54.34:603][263]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.12.12-23.54.34:695][263]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
-[2017.12.12-23.54.35:576][263]LogSlate: Took 0.014579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.12.12-23.54.35:935][264]LogSlate: Took 0.046884 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.12.12-23.58.17:182][620]LogSavePackage: Save=2.09ms
-[2017.12.12-23.58.17:182][620]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/NewSoundAttenuationB755C2DA4BCEBFD94241BBB343238816.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/NewSoundAttenuation.uasset'
-[2017.12.12-23.58.17:188][620]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/NewSoundAttenuation.uasset
-[2017.12.12-23.58.24:431][ 51]BlueprintLog: New page: Compile BP_Asteroid
-[2017.12.12-23.58.27:465][174]LogSavePackage: Save=78.58ms
-[2017.12.12-23.58.27:465][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInteriorD4C6B1EA48CAE318EC30B380A89DB4AC.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
-[2017.12.12-23.58.27:471][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
-[2017.12.12-23.58.27:494][174]LogFileHelpers: Saving map 'ShipInterior' took 0.237
-[2017.12.12-23.58.27:713][174]LogSavePackage: Save=187.52ms
-[2017.12.12-23.58.27:713][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_Asteroid4605D281401F78314D802C882074CF1C.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_Asteroid.uasset'
-[2017.12.12-23.58.27:719][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_Asteroid.uasset
-[2017.12.12-23.58.27:753][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sounds/alarm" FILE="../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/alarm.uasset" SILENT=true
-[2017.12.12-23.58.27:764][174]LogSavePackage: Save=8.49ms
-[2017.12.12-23.58.27:764][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/alarmE1FBD3EA41BF2EA85109C98D41CC8B3C.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/alarm.uasset'
-[2017.12.12-23.58.27:769][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/alarm.uasset
-[2017.12.12-23.58.27:784][174]LogSavePackage: Save=4.36ms
-[2017.12.12-23.58.27:784][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/arcadecrash153A1C8046D7C31CF38429BE1AF226F7.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/arcadecrash.uasset'
-[2017.12.12-23.58.27:789][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/arcadecrash.uasset
-[2017.12.12-23.58.27:806][174]LogSavePackage: Save=4.49ms
-[2017.12.12-23.58.27:806][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/asteroid_19464A378407A7FC3D65E78992FB825E3.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/asteroid_1.uasset'
-[2017.12.12-23.58.27:811][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/asteroid_1.uasset
-[2017.12.12-23.58.27:827][174]LogSavePackage: Save=4.47ms
-[2017.12.12-23.58.27:827][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/asteroid_22E33B69E4489856809747DB90D466EAA.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/asteroid_2.uasset'
-[2017.12.12-23.58.27:833][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/asteroid_2.uasset
-[2017.12.12-23.58.27:851][174]LogSavePackage: Save=4.25ms
-[2017.12.12-23.58.27:851][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/asteroid_39DFAF9D9457BB992AB6F6C996CC66A0E.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/asteroid_3.uasset'
-[2017.12.12-23.58.27:857][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/asteroid_3.uasset
-[2017.12.12-23.58.27:873][174]LogSavePackage: Save=4.42ms
-[2017.12.12-23.58.27:873][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/background_noise2DDDDDE742C95B6F4DB494ABBEE2E326.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/background_noise.uasset'
-[2017.12.12-23.58.27:879][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/background_noise.uasset
-[2017.12.12-23.58.27:893][174]LogSavePackage: Save=4.09ms
-[2017.12.12-23.58.27:893][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/counterblip94F6E9AA41693C4B4A59569D9E4E9D54.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/counterblip.uasset'
-[2017.12.12-23.58.27:898][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/counterblip.uasset
-[2017.12.12-23.58.27:909][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sounds/endgame" FILE="../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/endgame.uasset" SILENT=true
-[2017.12.12-23.58.27:915][174]LogSavePackage: Save=4.39ms
-[2017.12.12-23.58.27:915][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/endgame1B3307D64884A2DA32658DAD708E7D3E.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/endgame.uasset'
-[2017.12.12-23.58.27:921][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/endgame.uasset
-[2017.12.12-23.58.27:928][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sounds/minigun" FILE="../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/minigun.uasset" SILENT=true
-[2017.12.12-23.58.27:935][174]LogSavePackage: Save=4.39ms
-[2017.12.12-23.58.27:935][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/minigun5B8956F9452FEB34DF4E9DB3631B2B44.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/minigun.uasset'
-[2017.12.12-23.58.27:940][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/minigun.uasset
-[2017.12.12-23.58.27:949][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sounds/railgun" FILE="../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/railgun.uasset" SILENT=true
-[2017.12.12-23.58.27:956][174]LogSavePackage: Save=4.70ms
-[2017.12.12-23.58.27:956][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/railgunE082EE2F494EF7C679D178BB63E51C2A.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/railgun.uasset'
-[2017.12.12-23.58.27:961][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/railgun.uasset
-[2017.12.12-23.58.27:975][174]LogSavePackage: Save=4.21ms
-[2017.12.12-23.58.27:975][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/shipcrash_1D4BE37984977E72333718497BBA8D10C.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/shipcrash_1.uasset'
-[2017.12.12-23.58.27:980][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/shipcrash_1.uasset
-[2017.12.12-23.58.27:996][174]LogSavePackage: Save=4.44ms
-[2017.12.12-23.58.27:996][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/shipcrash_2B3C3325545DE73EAE7B7F49F401A87A2.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/shipcrash_2.uasset'
-[2017.12.12-23.58.28:001][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/shipcrash_2.uasset
-[2017.12.12-23.58.28:025][174]LogSavePackage: Save=11.59ms
-[2017.12.12-23.58.28:026][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/timeslowBFB6FD954904799C15B8D9A20954DCA8.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/timeslow.uasset'
-[2017.12.12-23.58.28:031][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/timeslow.uasset
-[2017.12.12-23.58.28:045][174]LogSavePackage: Save=4.26ms
-[2017.12.12-23.58.28:045][174]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/weaponchange5506E8E047DA989310AA85AA48A508ED.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/weaponchange.uasset'
-[2017.12.12-23.58.28:050][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Assets/Sounds/weaponchange.uasset
-[2017.12.13-00.00.02:928][281]BlueprintLog: New page: Compile BP_Asteroid
-[2017.12.13-00.00.04:711][330]LogSavePackage: Save=78.23ms
-[2017.12.13-00.00.04:711][330]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInterior4F9BE3EE4FDABF074B1340B30AAD03A6.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
-[2017.12.13-00.00.04:718][330]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
-[2017.12.13-00.00.04:752][330]LogFileHelpers: Saving map 'ShipInterior' took 0.243
-[2017.12.13-00.00.04:925][330]LogSavePackage: Save=144.09ms
-[2017.12.13-00.00.04:925][330]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_AsteroidE7AD62F3440F23713EFEB49B26861746.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_Asteroid.uasset'
-[2017.12.13-00.00.04:931][330]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_Asteroid.uasset
-[2017.12.13-00.01.37:336][265]LogSavePackage: Save=146.15ms
-[2017.12.13-00.01.37:336][265]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_Asteroid0C280CA041A4665DB6EAD3A4BEF96B29.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_Asteroid.uasset'
-[2017.12.13-00.01.37:343][265]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_Asteroid.uasset
-[2017.12.13-00.01.38:140][313]BlueprintLog: New page: Compile BP_Asteroid
-[2017.12.13-00.01.42:799][534]LogTemp: Repeating last play command: Simulate
-[2017.12.13-00.01.42:882][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.13-00.01.42:883][534]PIE: New page: SIE session: ShipInterior (Dec 12, 2017, 2:01:42 PM)
-[2017.12.13-00.01.42:883][534]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ShipInterior
-[2017.12.13-00.01.42:887][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004037s)
-[2017.12.13-00.01.42:888][534]LogAIModule: Creating AISystem for world ShipInterior
-[2017.12.13-00.01.42:888][534]LogPlayLevel: PIE: World Init took: (0.001216s)
-[2017.12.13-00.01.42:888][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ShipInterior.ShipInterior to /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior (0.005545s)
-[2017.12.13-00.01.42:908][534]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.13-00.01.42:989][534]LogInit: FAudioDevice initialized.
-[2017.12.13-00.01.43:042][534]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2017.12.13-00.01.43:042][534]LogLoad: Game class is 'GameModeBase'
-[2017.12.13-00.01.43:053][534]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.12.12-19.01.43
-[2017.12.13-00.01.43:054][534]LogWorld: Bringing up level for play took: 0.006052
-[2017.12.13-00.01.43:055][534]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.12.13-00.01.43:151][534]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
-[2017.12.13-00.01.43:158][534]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
-[2017.12.13-00.01.43:158][534]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ShipInterior -0.372
-[2017.12.13-00.02.10:917][972]BlueprintLog: New page: Compile BP_StartDisplay
-[2017.12.13-00.02.13:485][ 93]LogTemp: Repeating last play command: Simulate
-[2017.12.13-00.02.13:511][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.13-00.02.13:512][ 93]PIE: New page: SIE session: ShipInterior (Dec 12, 2017, 2:02:13 PM)
-[2017.12.13-00.02.13:512][ 93]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ShipInterior
-[2017.12.13-00.02.13:516][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003777s)
-[2017.12.13-00.02.13:516][ 93]LogAIModule: Creating AISystem for world ShipInterior
-[2017.12.13-00.02.13:517][ 93]LogPlayLevel: PIE: World Init took: (0.001300s)
-[2017.12.13-00.02.13:517][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ShipInterior.ShipInterior to /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior (0.005507s)
-[2017.12.13-00.02.13:539][ 93]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.13-00.02.13:605][ 93]LogInit: FAudioDevice initialized.
-[2017.12.13-00.02.13:643][ 93]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2017.12.13-00.02.13:643][ 93]LogLoad: Game class is 'GameModeBase'
-[2017.12.13-00.02.13:647][ 93]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.12.12-19.02.13
-[2017.12.13-00.02.13:647][ 93]LogWorld: Bringing up level for play took: 0.003336
-[2017.12.13-00.02.13:648][ 93]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.12.13-00.02.13:658][ 93]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ShipInterior 0.128
-[2017.12.13-00.02.40:101][281]LogSavePackage: Save=79.92ms
-[2017.12.13-00.02.40:102][281]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInterior96C52F4242D64AA00A8F38AB4C6B1283.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
-[2017.12.13-00.02.40:107][281]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
-[2017.12.13-00.02.40:130][281]LogFileHelpers: Saving map 'ShipInterior' took 0.238
-[2017.12.13-00.02.40:246][281]LogSavePackage: Save=94.31ms
-[2017.12.13-00.02.40:246][281]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_StartDisplay57758FFF47A198556C087FB7DE0C8A96.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_StartDisplay.uasset'
-[2017.12.13-00.02.40:252][281]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_StartDisplay.uasset
-[2017.12.13-00.02.40:881][319]BlueprintLog: New page: Compile BP_StartDisplay
-[2017.12.13-00.03.56:634][675]LogSavePackage: Save=425.28ms
-[2017.12.13-00.03.56:634][675]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInterior8A11C8584F8BC26E0AA547BB78EBD8BC.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
-[2017.12.13-00.03.56:640][675]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
-[2017.12.13-00.03.56:663][675]LogFileHelpers: Saving map 'ShipInterior' took 0.584
-[2017.12.13-00.03.56:830][675]LogSavePackage: Save=135.88ms
-[2017.12.13-00.03.56:830][675]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_RestartDisplayAB9B02104B74C814E33D01A6A6ABC393.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_RestartDisplay.uasset'
-[2017.12.13-00.03.56:836][675]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_RestartDisplay.uasset
-[2017.12.13-00.03.57:351][706]BlueprintLog: New page: Compile BP_RestartDisplay
-[2017.12.13-00.04.08:275][321]BlueprintLog: New page: Compile BP_RestartDisplay
-[2017.12.13-00.04.10:270][398]LogTemp: Repeating last play command: Simulate
-[2017.12.13-00.04.10:303][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.13-00.04.10:303][398]PIE: New page: SIE session: ShipInterior (Dec 12, 2017, 2:04:10 PM)
-[2017.12.13-00.04.10:303][398]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ShipInterior
-[2017.12.13-00.04.10:307][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003910s)
-[2017.12.13-00.04.10:308][398]LogAIModule: Creating AISystem for world ShipInterior
-[2017.12.13-00.04.10:308][398]LogPlayLevel: PIE: World Init took: (0.001132s)
-[2017.12.13-00.04.10:309][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ShipInterior.ShipInterior to /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior (0.005337s)
-[2017.12.13-00.04.10:330][398]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.13-00.04.10:405][398]LogInit: FAudioDevice initialized.
-[2017.12.13-00.04.10:453][398]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2017.12.13-00.04.10:453][398]LogLoad: Game class is 'GameModeBase'
-[2017.12.13-00.04.10:460][398]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.12.12-19.04.10
-[2017.12.13-00.04.10:461][398]LogWorld: Bringing up level for play took: 0.005852
-[2017.12.13-00.04.10:462][398]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.12.13-00.04.10:479][398]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
-[2017.12.13-00.04.10:482][398]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
-[2017.12.13-00.04.10:482][398]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ShipInterior 0.952
-[2017.12.13-00.04.17:858][766]LogSavePackage: Save=78.85ms
-[2017.12.13-00.04.17:858][766]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInterior8091F58544B8FBE324BE9FA70D9D6039.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
-[2017.12.13-00.04.17:864][766]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
-[2017.12.13-00.04.17:888][766]LogFileHelpers: Saving map 'ShipInterior' took 0.236
-[2017.12.13-00.04.18:044][766]LogSavePackage: Save=134.89ms
-[2017.12.13-00.04.18:044][766]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_RestartDisplayDC9014AD4F22A22F6ADF8F87C5E913DD.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_RestartDisplay.uasset'
-[2017.12.13-00.04.18:050][766]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_RestartDisplay.uasset
-[2017.12.13-00.04.18:547][796]BlueprintLog: New page: Compile BP_RestartDisplay
-[2017.12.13-00.05.53:498][843]LogSavePackage: Save=79.78ms
-[2017.12.13-00.05.53:498][843]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInterior03D1A2454A7C8B4C953F6AA5B0E7FF6A.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
-[2017.12.13-00.05.53:504][843]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
-[2017.12.13-00.05.53:527][843]LogFileHelpers: Saving map 'ShipInterior' took 0.254
-[2017.12.13-00.05.53:791][843]LogSavePackage: Save=233.33ms
-[2017.12.13-00.05.53:791][843]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_GenericShip60CB86C143521EF75EC40C92FA056E06.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_GenericShip.uasset'
-[2017.12.13-00.05.53:796][843]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_GenericShip.uasset
-[2017.12.13-00.07.06:167][102]BlueprintLog: New page: Compile BP_GenericShip
-[2017.12.13-00.10.19:655][501]LogSavePackage: Save=81.43ms
-[2017.12.13-00.10.19:655][501]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInterior9B064FB841DAB57F6F002AB76128F310.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
-[2017.12.13-00.10.19:662][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
-[2017.12.13-00.10.19:697][501]LogFileHelpers: Saving map 'ShipInterior' took 0.260
-[2017.12.13-00.10.19:984][501]LogSavePackage: Save=258.22ms
-[2017.12.13-00.10.19:984][501]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_GenericShip43FDAF5F41CFF3DF86E4C680A0495755.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_GenericShip.uasset'
-[2017.12.13-00.10.19:991][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_GenericShip.uasset
-[2017.12.13-00.10.20:457][529]BlueprintLog: New page: Compile BP_GenericShip
-[2017.12.13-00.12.04:568][490]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.12.13-00.12.56:796][540]BlueprintLog: New page: Compile BP_HealthDisplay
-[2017.12.13-00.13.45:321][322]LogRenderer: Reallocating scene render targets to support 964x540 Format 26 NumSamples 1 (Frame:1).
-[2017.12.13-00.14.10:557][823]LogSlate: Took 0.032713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2017.12.13-00.14.30:941][  4]LogSavePackage: Save=94.94ms
-[2017.12.13-00.14.30:941][  4]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInterior98AE6BAD4E7AEF55E05DB08414A5276E.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
-[2017.12.13-00.14.30:948][  4]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
-[2017.12.13-00.14.30:971][  4]LogFileHelpers: Saving map 'ShipInterior' took 0.261
-[2017.12.13-00.14.31:077][  4]LogSavePackage: Save=75.20ms
-[2017.12.13-00.14.31:078][  4]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_HealthDisplay318EB7E4487C451618687AAF1DB68F36.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_HealthDisplay.uasset'
-[2017.12.13-00.14.31:083][  4]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_HealthDisplay.uasset
-[2017.12.13-00.14.31:299][  4]LogSavePackage: Save=111.07ms
-[2017.12.13-00.14.31:299][  4]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_ShipInteriorF307578443D9040D34939C84EF0441ED.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_ShipInterior.uasset'
-[2017.12.13-00.14.31:304][  4]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_ShipInterior.uasset
-[2017.12.13-00.14.32:410][ 60]BlueprintLog: New page: Compile BP_ShipInterior
-[2017.12.13-00.15.02:537][792]BlueprintLog: New page: Compile BP_ShipInterior
-[2017.12.13-00.15.07:426][ 40]LogEditorViewport: Clicking on Actor (LMB): BP_ShipInterior_C (ShipInterior)
-[2017.12.13-00.17.55:358][955]BlueprintLog: New page: Compile BP_ShipInterior
-[2017.12.13-00.18.05:809][485]BlueprintLog: New page: Compile BP_ShipInterior
-[2017.12.13-00.18.07:915][565]LogTemp: Repeating last play command: Simulate
-[2017.12.13-00.18.07:953][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.12.13-00.18.07:953][565]PIE: New page: SIE session: ShipInterior (Dec 12, 2017, 2:18:07 PM)
-[2017.12.13-00.18.07:953][565]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ShipInterior
-[2017.12.13-00.18.07:958][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004323s)
-[2017.12.13-00.18.07:959][565]LogAIModule: Creating AISystem for world ShipInterior
-[2017.12.13-00.18.07:959][565]LogPlayLevel: PIE: World Init took: (0.001279s)
-[2017.12.13-00.18.07:959][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ShipInterior.ShipInterior to /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior (0.005908s)
-[2017.12.13-00.18.07:984][565]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.12.13-00.18.08:057][565]LogInit: FAudioDevice initialized.
-[2017.12.13-00.18.08:092][565]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2017.12.13-00.18.08:092][565]LogLoad: Game class is 'GameModeBase'
-[2017.12.13-00.18.08:097][565]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 60) at 2017.12.12-19.18.08
-[2017.12.13-00.18.08:097][565]LogWorld: Bringing up level for play took: 0.003913
-[2017.12.13-00.18.08:098][565]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.12.13-00.18.08:110][565]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
-[2017.12.13-00.18.08:110][565]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ShipInterior 0.58
-[2017.12.13-00.18.15:055][924]LogSavePackage: Save=78.34ms
-[2017.12.13-00.18.15:055][924]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInterior284F028C46B5D0180F0D9E8790452ACF.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
-[2017.12.13-00.18.15:061][924]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
-[2017.12.13-00.18.15:086][924]LogFileHelpers: Saving map 'ShipInterior' took 0.243
-[2017.12.13-00.18.15:493][924]LogSavePackage: Save=334.59ms
-[2017.12.13-00.18.15:493][924]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_ShipInterior4682CBDC4A0DDE094EB3B796905E8DBD.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_ShipInterior.uasset'
-[2017.12.13-00.18.15:499][924]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_ShipInterior.uasset
-[2017.12.13-00.18.16:032][956]BlueprintLog: New page: Compile BP_ShipInterior
-[2017.12.13-00.19.03:465][714]BlueprintLog: New page: Compile BP_HealthDisplay
-[2017.12.13-00.19.05:380][761]LogSavePackage: Save=78.17ms
-[2017.12.13-00.19.05:380][761]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInteriorD310C7144B3C115B1467D98C2FD2A705.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
-[2017.12.13-00.19.05:386][761]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
-[2017.12.13-00.19.05:411][761]LogFileHelpers: Saving map 'ShipInterior' took 0.246
-[2017.12.13-00.19.05:511][761]LogSavePackage: Save=71.35ms
-[2017.12.13-00.19.05:511][761]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_HealthDisplay2C634F2348D1487A88BEB6BDC9E77E06.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_HealthDisplay.uasset'
-[2017.12.13-00.19.05:516][761]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_HealthDisplay.uasset
-[2017.12.13-00.22.49:864][397]LogSavePackage: Save=252.76ms
-[2017.12.13-00.22.49:864][397]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_GenericShip754435624BB4064B16C08586DDFEBBDF.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_GenericShip.uasset'
-[2017.12.13-00.22.49:870][397]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_GenericShip.uasset
-[2017.12.13-00.22.50:398][397]LogSavePackage: Save=509.67ms
-[2017.12.13-00.22.50:398][397]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/MotionControllerPawnCFA8CBE74C4980EE55CFB38E5F95FB53.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
-[2017.12.13-00.22.50:404][397]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
-[2017.12.13-00.22.51:665][472]BlueprintLog: New page: Compile BP_GenericShip
-[2017.12.13-00.23.47:455][672]LogSavePackage: Save=80.72ms
-[2017.12.13-00.23.47:455][672]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInterior4DA02C4841B726E26B9E2E9AC51F6915.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
-[2017.12.13-00.23.47:461][672]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
-[2017.12.13-00.23.47:513][672]LogFileHelpers: Saving map 'ShipInterior' took 0.277
-[2017.12.13-00.23.47:794][672]LogSavePackage: Save=250.96ms
-[2017.12.13-00.23.47:794][672]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/BP_GenericShipD6CE91314E24DF3C4F3E57A983D429FA.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_GenericShip.uasset'
-[2017.12.13-00.23.47:800][672]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_GenericShip.uasset
-[2017.12.13-00.23.48:880][737]BlueprintLog: New page: Compile BP_GenericShip
-[2017.12.13-00.24.00:218][120]LogSavePackage: Save=79.32ms
-[2017.12.13-00.24.00:218][120]LogSavePackage: Moving '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/ShipInterior1BF1D9C54FD669617883BEAB18257FD6.tmp' to '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
-[2017.12.13-00.24.00:224][120]LogSavePackage: Display: Finished SavePackage ../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
-[2017.12.13-00.24.00:246][120]LogFileHelpers: Saving map 'ShipInterior' took 0.246
-[2017.12.13-00.24.00:395][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.12.13-00.24.00:467][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.12.13-00.24.00:566][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.12.13-00.24.00:622][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.12.13-00.24.00:680][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.12.13-00.24.00:752][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.12.13-00.24.00:842][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.12.13-00.24.01:134][121]Cmd: QUIT_EDITOR
-[2017.12.13-00.24.01:851][121]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.12.13-00.24.01:889][121]LogExit: Preparing to exit.
-[2017.12.13-00.24.02:517][121]LogDirectoryWatcher: A directory notification for 'D:/Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/' was aborted.
-[2017.12.13-00.24.02:566][121]LogExit: Editor shut down
-[2017.12.13-00.24.02:578][121]LogExit: Transaction tracking system shut down
-[2017.12.13-00.24.02:776][121]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.12.13-00.24.02:777][121]LogDirectoryWatcher: A directory notification for '../../../../../../Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/' was aborted.
-[2017.12.13-00.24.02:777][121]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.12.13-00.24.02:777][121]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.12.13-00.24.02:777][121]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.12.13-00.24.02:891][121]LogExit: Object subsystem successfully closed.
-[2017.12.13-00.24.02:904][121]LogD3D11RHI: Shutdown
-[2017.12.13-00.24.02:904][121]LogD3D11RHI: CleanupD3DDevice
-[2017.12.13-00.24.03:000][121]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.12.13-00.24.03:008][121]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (538)
-[2017.12.13-00.24.03:008][121]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
-[2017.12.13-00.24.03:008][121]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
-[2017.12.13-00.24.03:008][121]LogModuleManager: Shutting down and abandoning module SynthBenchmark (532)
-[2017.12.13-00.24.03:008][121]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
-[2017.12.13-00.24.03:008][121]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2017.12.13-00.24.03:008][121]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2017.12.13-00.24.03:008][121]LogDirectoryWatcher: A directory notification for 'D:/ProgramFiles/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2017.12.13-00.24.03:009][121]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2017.12.13-00.24.03:009][121]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2017.12.13-00.24.03:009][121]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2017.12.13-00.24.03:010][121]LogDirectoryWatcher: A directory notification for 'D:/Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Collections/' was aborted.
-[2017.12.13-00.24.03:010][121]LogDirectoryWatcher: A directory notification for 'D:/Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Content/Developers/JonathanOates/Collections/' was aborted.
-[2017.12.13-00.24.03:010][121]LogDirectoryWatcher: A directory notification for 'D:/Jonathan Oates/Documents/Repositories/ExperimentalGame_VR/KairosVR_new/Saved/Collections/' was aborted.
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module Media (477)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2017.12.13-00.24.03:010][121]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2017.12.13-00.24.03:011][121]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2017.12.13-00.24.03:011][121]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2017.12.13-00.24.03:011][121]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2017.12.13-00.24.03:011][121]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2017.12.13-00.24.03:011][121]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2017.12.13-00.24.03:302][121]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2017.12.13-00.24.03:302][121]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2017.12.13-00.24.03:302][121]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2017.12.13-00.24.03:302][121]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2017.12.13-00.24.03:302][121]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2017.12.13-00.24.03:303][121]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2017.12.13-00.24.03:303][121]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2017.12.13-00.24.03:303][121]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2017.12.13-00.24.03:303][121]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2017.12.13-00.24.03:303][121]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2017.12.13-00.24.03:303][121]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2017.12.13-00.24.03:303][121]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2017.12.13-00.24.03:303][121]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2017.12.13-00.24.03:303][121]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2017.12.13-00.24.03:303][121]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2017.12.13-00.24.03:303][121]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2017.12.13-00.24.03:304][121]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2017.12.13-00.24.03:304][121]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2017.12.13-00.24.03:304][121]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2017.12.13-00.24.03:304][121]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2017.12.13-00.24.03:304][121]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2017.12.13-00.24.03:304][121]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2017.12.13-00.24.03:304][121]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2017.12.13-00.24.03:305][121]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2017.12.13-00.24.03:357][121]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2017.12.13-00.24.03:357][121]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2017.12.13-00.24.03:357][121]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2017.12.13-00.24.03:357][121]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2017.12.13-00.24.03:357][121]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2017.12.13-00.24.03:357][121]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2017.12.13-00.24.03:358][121]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2017.12.13-00.24.03:358][121]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2017.12.13-00.24.03:358][121]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2017.12.13-00.24.03:358][121]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2017.12.13-00.24.03:384][121]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2017.12.13-00.24.03:388][121]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2017.12.13-00.24.03:388][121]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2017.12.13-00.24.03:388][121]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2017.12.13-00.24.03:388][121]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2017.12.13-00.24.03:388][121]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2017.12.13-00.24.03:388][121]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2017.12.13-00.24.03:388][121]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2017.12.13-00.24.03:388][121]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2017.12.13-00.24.03:388][121]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2017.12.13-00.24.03:388][121]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2017.12.13-00.24.03:389][121]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2017.12.13-00.24.03:389][121]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2017.12.13-00.24.03:389][121]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2017.12.13-00.24.03:389][121]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2017.12.13-00.24.03:389][121]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2017.12.13-00.24.03:389][121]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2017.12.13-00.24.03:389][121]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2017.12.13-00.24.03:389][121]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2017.12.13-00.24.03:389][121]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2017.12.13-00.24.03:389][121]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2017.12.13-00.24.03:535][121]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2017.12.13-00.24.03:535][121]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2017.12.13-00.24.03:535][121]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2017.12.13-00.24.03:535][121]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2017.12.13-00.24.03:535][121]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2017.12.13-00.24.03:536][121]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2017.12.13-00.24.03:536][121]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2017.12.13-00.24.03:536][121]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2017.12.13-00.24.03:536][121]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2017.12.13-00.24.03:536][121]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2017.12.13-00.24.03:536][121]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2017.12.13-00.24.03:536][121]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2017.12.13-00.24.03:536][121]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2017.12.13-00.24.03:536][121]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2017.12.13-00.24.03:536][121]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2017.12.13-00.24.03:536][121]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2017.12.13-00.24.03:536][121]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2017.12.13-00.24.03:537][121]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2017.12.13-00.24.03:537][121]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2017.12.13-00.24.03:537][121]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2017.12.13-00.24.03:537][121]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2017.12.13-00.24.03:537][121]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2017.12.13-00.24.03:537][121]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2017.12.13-00.24.03:537][121]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2017.12.13-00.24.03:537][121]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2017.12.13-00.24.03:537][121]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2017.12.13-00.24.03:541][121]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2017.12.13-00.24.03:541][121]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2017.12.13-00.24.03:541][121]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2017.12.13-00.24.03:541][121]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2017.12.13-00.24.03:541][121]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2017.12.13-00.24.03:541][121]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2017.12.13-00.24.03:543][121]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2017.12.13-00.24.03:543][121]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2017.12.13-00.24.03:543][121]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2017.12.13-00.24.03:544][121]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2017.12.13-00.24.03:544][121]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2017.12.13-00.24.03:545][121]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2017.12.13-00.24.03:545][121]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2017.12.13-00.24.03:545][121]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2017.12.13-00.24.03:545][121]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2017.12.13-00.24.03:545][121]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2017.12.13-00.24.03:545][121]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2017.12.13-00.24.03:645][121]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2017.12.13-00.24.03:746][121]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2017.12.13-00.24.03:746][121]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2017.12.13-00.24.03:746][121]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2017.12.13-00.24.03:746][121]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2017.12.13-00.24.03:746][121]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2017.12.13-00.24.03:746][121]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2017.12.13-00.24.03:749][121]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2017.12.13-00.24.03:749][121]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2017.12.13-00.24.03:749][121]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2017.12.13-00.24.03:749][121]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2017.12.13-00.24.03:755][121]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2017.12.13-00.24.03:755][121]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2017.12.13-00.24.03:755][121]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2017.12.13-00.24.03:755][121]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2017.12.13-00.24.03:755][121]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2017.12.13-00.24.03:755][121]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2017.12.13-00.24.03:755][121]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2017.12.13-00.24.03:756][121]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2017.12.13-00.24.03:756][121]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2017.12.13-00.24.03:756][121]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2017.12.13-00.24.03:756][121]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2017.12.13-00.24.03:756][121]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2017.12.13-00.24.03:756][121]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2017.12.13-00.24.03:756][121]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2017.12.13-00.24.03:756][121]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2017.12.13-00.24.03:756][121]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2017.12.13-00.24.03:757][121]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2017.12.13-00.24.03:757][121]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2017.12.13-00.24.03:757][121]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2017.12.13-00.24.03:757][121]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2017.12.13-00.24.03:762][121]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2017.12.13-00.24.03:762][121]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2017.12.13-00.24.03:762][121]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2017.12.13-00.24.03:762][121]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2017.12.13-00.24.03:762][121]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2017.12.13-00.24.03:762][121]LogModuleManager: Shutting down and abandoning module Core (168)
-[2017.12.13-00.24.03:762][121]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.12.13-00.24.03:762][121]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2017.12.13-00.24.03:763][121]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2017.12.13-00.24.03:763][121]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2017.12.13-00.24.03:763][121]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2017.12.13-00.24.03:763][121]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2017.12.13-00.24.03:763][121]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2017.12.13-00.24.03:763][121]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2017.12.13-00.24.03:763][121]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2017.12.13-00.24.03:763][121]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2017.12.13-00.24.03:765][121]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.12.13-00.24.03:793][121]LogDerivedDataCache: Shutdown
-[2017.12.13-00.24.03:793][121]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.12.13-00.24.03:793][121]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.12.13-00.24.03:793][121]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.12.13-00.24.03:793][121]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.12.13-00.24.03:794][121]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.12.13-00.24.03:795][121]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.12.13-00.24.03:795][121]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.12.13-00.24.03:795][121]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.12.13-00.24.03:795][121]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.12.13-00.24.03:795][121]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.12.13-00.24.03:795][121]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.12.13-00.24.03:795][121]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.12.13-00.24.03:795][121]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.12.13-00.24.03:795][121]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.12.13-00.24.03:795][121]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.12.13-00.24.03:795][121]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.12.13-00.24.03:795][121]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.12.13-00.24.03:795][121]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.12.13-00.24.03:796][121]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.12.13-00.24.03:796][121]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.12.13-00.24.03:796][121]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.12.13-00.24.03:796][121]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.12.13-00.24.03:796][121]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.12.13-00.24.03:796][121]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.12.13-00.24.03:796][121]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.12.13-00.24.03:796][121]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.12.13-00.24.03:796][121]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.12.13-00.24.03:796][121]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.12.13-00.24.03:797][121]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.12.13-00.24.03:797][121]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2017.12.13-00.24.03:797][121]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2017.12.13-00.24.03:797][121]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2017.12.13-00.24.03:797][121]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.12.13-00.24.03:797][121]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.12.13-00.24.03:797][121]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.12.13-00.24.03:797][121]LogOnline: Display: Unloading online subsystem: NULL
-[2017.12.13-00.24.03:797][121]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.12.13-00.24.03:797][121]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.12.13-00.24.03:797][121]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
-[2017.12.13-00.24.03:797][121]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9C41C2E1-4E1F-A73C-6F80-2CA09A25ABF1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=0af67c8b46301f8e0cf4d69be9361d5c%7C9975c818dc15487da82246fda931f30b%7Cf4deb5ec-6fb9-42bc-bb14-fe04e7fcdd6c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.12.13-00.24.03:798][121]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9C41C2E1-4E1F-A73C-6F80-2CA09A25ABF1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=0af67c8b46301f8e0cf4d69be9361d5c%7C9975c818dc15487da82246fda931f30b%7Cf4deb5ec-6fb9-42bc-bb14-fe04e7fcdd6c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.12.13-00.24.03:813][121]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.12.13-00.24.03:816][121]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.12.13-00.24.03:816][121]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.12.13-00.24.03:816][121]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.12.13-00.24.03:817][121]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.12.13-00.24.03:817][121]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.12.13-00.24.03:817][121]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.12.13-00.24.03:817][121]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.12.13-00.24.03:821][121]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.12.13-00.24.03:822][121]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.12.13-00.24.03:822][121]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.12.13-00.24.03:822][121]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.12.13-00.24.03:822][121]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.12.13-00.24.03:822][121]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.12.13-00.24.03:822][121]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.12.13-00.24.03:822][121]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.12.13-00.24.03:822][121]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.12.13-00.24.03:822][121]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.12.13-00.24.03:822][121]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.12.13-00.24.03:833][121]LogExit: Exiting.
-[2017.12.13-00.24.03:862][121]Log file closed, 12/12/17 19:24:03
+[2017.12.13-01.40.06:598][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.13-01.40.06:598][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.13-01.40.06:607][  0]LogInit: Computer: ARTSYFARTSY
+[2017.12.13-01.40.06:607][  0]LogInit: User: Kaitlin
+[2017.12.13-01.40.06:607][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.13-01.40.06:607][  0]LogInit: High frequency timer resolution =3.234501 MHz
+[2017.12.13-01.40.06:607][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.13-01.40.06:607][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.13-01.40.06:607][  0]LogMemory: Process Physical Memory: 279.04 MB used, 279.04 MB peak
+[2017.12.13-01.40.06:607][  0]LogMemory: Process Virtual Memory: 276.57 MB used, 276.57 MB peak
+[2017.12.13-01.40.06:607][  0]LogMemory: Physical Memory: 8099.07 MB used,  8211.14 MB free, 16310.20 MB total
+[2017.12.13-01.40.06:607][  0]LogMemory: Virtual Memory: 655.58 MB used,  8211.14 MB free, 8388608.00 MB total
+[2017.12.13-01.40.07:131][  0]LogInit: Using OS detected language (en-US).
+[2017.12.13-01.40.07:131][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.13-01.40.07:133][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.13-01.40.07:753][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.13-01.40.07:772][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200' (Feature Level 11_0)
+[2017.12.13-01.40.07:772][  0]LogD3D11RHI:       4034/0/7899 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.13-01.40.07:772][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.13-01.40.07:778][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.13-01.40.07:778][  0]LogD3D11RHI:     GPU DeviceId: 0x13ba (for the marketing name, search the web for "GPU Device Id")
+[2017.12.13-01.40.07:778][  0]LogWindows: EnumDisplayDevices:
+[2017.12.13-01.40.07:779][  0]LogWindows:    0. 'NVIDIA Quadro K2200' (P:0 D:1)
+[2017.12.13-01.40.07:779][  0]LogWindows:    1. 'NVIDIA Quadro K2200' (P:1 D:1)
+[2017.12.13-01.40.07:779][  0]LogWindows:    2. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2017.12.13-01.40.07:779][  0]LogWindows:    3. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2017.12.13-01.40.07:779][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.12.13-01.40.07:779][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.12.13-01.40.07:779][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.12.13-01.40.07:779][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.12.13-01.40.07:779][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200
+[2017.12.13-01.40.07:779][  0]LogD3D11RHI:   Driver Version: 385.69 (internal:22.21.13.8569, unified:385.69)
+[2017.12.13-01.40.07:779][  0]LogD3D11RHI:      Driver Date: 9-16-2017
+[2017.12.13-01.40.07:779][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.13-01.40.07:790][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.13-01.40.07:806][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.12.13-01.40.07:892][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Intermediate/Shaders/WorkingDirectory/22244/).
+[2017.12.13-01.40.07:893][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kaitlin/AppData/Local/Temp/UnrealShaderWorkingDir/E87651C349AE2988DC3CC59AD4CE2AC2/'.
+[2017.12.13-01.40.07:893][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.13-01.40.08:955][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.13-01.40.09:013][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.13-01.40.09:071][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.13-01.40.09:129][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.13-01.40.09:187][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.13-01.40.09:244][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.13-01.40.09:304][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.13-01.40.09:362][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.13-01.40.09:413][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.13-01.40.09:470][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.13-01.40.09:529][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.13-01.40.09:585][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.13-01.40.09:643][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.13-01.40.09:701][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.13-01.40.09:758][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.13-01.40.09:872][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.13-01.40.09:872][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.13-01.40.09:919][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.13-01.40.10:020][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.13-01.40.10:051][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.13-01.40.10:108][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.13-01.40.10:167][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.13-01.40.10:229][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.13-01.40.10:286][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.13-01.40.10:286][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.13-01.40.10:881][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.13-01.40.10:968][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/Kaitlin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.13-01.40.10:968][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Kaitlin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.13-01.40.10:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file M:/ExpGames/ExperimentalGame_VR/KairosVR_new/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.13-01.40.10:968][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.13-01.40.10:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file M:/ExpGames/ExperimentalGame_VR/KairosVR_new/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.13-01.40.10:968][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.13-01.40.10:984][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.13-01.40.10:995][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kaitlin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.13-01.40.11:004][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.13-01.40.11:004][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.13-01.40.11:005][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.13-01.40.11:005][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.13-01.40.11:248][  0]LogAssetRegistry: FAssetRegistry took 0.0242 seconds to start up
+[2017.12.13-01.40.11:415][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.13-01.40.11:419][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.13-01.40.11:872][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.13-01.40.11:922][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.13-01.40.11:922][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.13-01.40.11:922][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.13-01.40.11:922][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.13-01.40.11:922][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.13-01.40.12:257][  0]LogNetVersion: KairosVR_new , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3281661072)
+[2017.12.13-01.40.12:506][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.055685 seconds
+[2017.12.13-01.40.12:512][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.13-01.40.12:512][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.13-01.40.12:512][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.13-01.40.12:582][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.13-01.40.15:354][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.13-01.40.15:393][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.13-01.40.16:184][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.13-01.40.16:680][  0]SourceControl: Source control is disabled
+[2017.12.13-01.40.16:680][  0]SourceControl: Source control is disabled
+[2017.12.13-01.40.16:735][  0]SourceControl: Source control is disabled
+[2017.12.13-01.40.16:789][  0]SourceControl: Source control is disabled
+[2017.12.13-01.40.17:432][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.13-01.40.17:706][  0]LogOcInput: OculusInput pre-init called
+[2017.12.13-01.40.17:987][  0]LogEngine: Initializing Engine...
+[2017.12.13-01.40.17:988][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.13-01.40.18:226][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.13-01.40.18:226][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.13-01.40.18:394][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.13-01.40.18:407][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.13-01.40.18:419][  0]LogInit: FAudioDevice initialized.
+[2017.12.13-01.40.18:570][  0]LogDerivedDataCache: Saved boot cache 0.15s 93MB C:/Users/Kaitlin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.13-01.40.18:586][  0]LogInit: Texture streaming: Enabled
+[2017.12.13-01.40.18:716][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.13-01.40.18:968][  0]LogInit: Transaction tracking system initialized
+[2017.12.13-01.40.19:334][  0]BlueprintLog: New page: Editor Load
+[2017.12.13-01.40.20:361][  0]LocalizationService: Localization service is disabled
+[2017.12.13-01.40.21:144][  0]LogConsoleResponse: Display: 
+[2017.12.13-01.40.21:313][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.13-01.40.21:313][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.13-01.40.21:313][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.13-01.40.22:440][  0]LogFileCache: Scanning file cache for directory 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/' took 0.01s
+[2017.12.13-01.40.22:491][  0]SourceControl: Source control is disabled
+[2017.12.13-01.40.22:491][  0]Cmd: MAP LOAD FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.13-01.40.22:492][  0]LightingResults: New page: Lighting Build
+[2017.12.13-01.40.22:540][  0]MapCheck: New page: Map Check
+[2017.12.13-01.40.22:540][  0]LightingResults: New page: Lighting Build
+[2017.12.13-01.40.23:394][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave alarm...
+[2017.12.13-01.40.24:598][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave weaponchange...
+[2017.12.13-01.40.24:641][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave timeslow...
+[2017.12.13-01.40.24:750][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave shipcrash_1...
+[2017.12.13-01.40.24:784][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave railgun...
+[2017.12.13-01.40.24:880][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave minigun...
+[2017.12.13-01.40.25:015][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave endgame...
+[2017.12.13-01.40.25:274][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave shipcrash_2...
+[2017.12.13-01.40.25:322][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave asteroid_2...
+[2017.12.13-01.40.25:401][  0]LogAIModule: Creating AISystem for world ShipInterior
+[2017.12.13-01.40.25:418][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.13-01.40.25:433][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.13-01.40.25:490][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.74ms to complete.
+[2017.12.13-01.40.25:490][  0]LogFileHelpers: Loading map 'ShipInterior' took 2.999
+[2017.12.13-01.40.25:625][  0]LogCollectionManager: Loaded 0 collections in 0.001349 seconds
+[2017.12.13-01.40.25:713][  0]LogFileCache: Scanning file cache for directory 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/Collections/' took 0.01s
+[2017.12.13-01.40.25:713][  0]LogFileCache: Scanning file cache for directory 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Developers/Kaitlin/Collections/' took 0.01s
+[2017.12.13-01.40.25:713][  0]LogFileCache: Scanning file cache for directory 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Collections/' took 0.01s
+[2017.12.13-01.40.25:713][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.13-01.40.25:722][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2386 classes and 500 folders.
+[2017.12.13-01.40.25:796][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.13-01.40.25:834][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.13-01.40.25:885][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.12.13-01.40.25:904][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.13-01.40.25:906][  0]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.13-01.40.25:911][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.13-01.40.26:060][  0]LogRenderer: Reallocating scene render targets to support 1328x688 Format 26 NumSamples 1 (Frame:1).
+[2017.12.13-01.40.26:328][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.12.13-01.40.26:328][  0]LogLoad: (Engine Initialization) Total time: 21.22 seconds
+[2017.12.13-01.40.26:328][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.13-01.40.26:329][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.13-01.40.26:329][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.13-01.40.26:368][  0]LogAssetRegistry: Asset discovery search completed in 15.1395 seconds
+[2017.12.13-01.40.26:369][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.13-01.40.26:369][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2017.12.13-01.40.26:372][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.13-01.40.26:421][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.13-01.40.26:436][  1]LogFileCache: Retrieving MD5 hashes for directory 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/' took 0.08s
+[2017.12.13-01.40.27:440][ 31]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.13-01.40.44:566][737]LogTemp: Repeating last play command: Simulate
+[2017.12.13-01.40.44:680][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-01.40.44:681][737]PIE: New page: SIE session: ShipInterior (Dec 12, 2017, 3:40:44 PM)
+[2017.12.13-01.40.44:681][737]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ShipInterior
+[2017.12.13-01.40.44:693][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010979s)
+[2017.12.13-01.40.44:694][737]LogAIModule: Creating AISystem for world ShipInterior
+[2017.12.13-01.40.44:694][737]LogPlayLevel: PIE: World Init took: (0.001712s)
+[2017.12.13-01.40.44:695][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ShipInterior.ShipInterior to /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior (0.013405s)
+[2017.12.13-01.40.44:716][737]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.13-01.40.44:729][737]LogInit: FAudioDevice initialized.
+[2017.12.13-01.40.44:769][737]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.12.13-01.40.44:769][737]LogLoad: Game class is 'GameModeBase'
+[2017.12.13-01.40.44:777][737]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 0) at 2017.12.12-20.40.44
+[2017.12.13-01.40.44:778][737]LogWorld: Bringing up level for play took: 0.005607
+[2017.12.13-01.40.44:780][737]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.13-01.40.44:842][737]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.12.13-01.40.44:849][737]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2017.12.13-01.40.44:849][737]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ShipInterior 0.743
+[2017.12.13-01.43.28:991][403]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.13-01.43.29:047][403]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 M:\ExpGames\Final\assets\tableBase_mat.fbx)
+[2017.12.13-01.43.29:067][403]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.12.13-01.43.29:067][403]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.12.13-01.43.29:067][403]LogFbx: ItemName: Material, ItemCount : 2
+[2017.12.13-01.43.29:067][403]LogFbx: ItemName: Model, ItemCount : 1
+[2017.12.13-01.43.29:081][403]LogFbx: Loading FBX Scene from M:\ExpGames\Final\assets\tableBase_mat.fbx
+[2017.12.13-01.43.29:087][403]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.13-01.43.30:935][403]LogFbx: Loading FBX Scene from M:\ExpGames\Final\assets\tableBase_mat.fbx
+[2017.12.13-01.43.30:940][403]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.13-01.43.30:941][403]LogLinker: Can't find file '/Game/Assets/Table/metal_03'
+[2017.12.13-01.43.30:941][403]LogLinker: Can't find file '/Game/Assets/Table/metal_03'
+[2017.12.13-01.43.30:968][403]LogMaterial: Missing cached shader map for material metal_03, compiling. 
+[2017.12.13-01.43.30:998][403]LogLinker: Can't find file '/Game/Assets/Table/metal_01'
+[2017.12.13-01.43.30:998][403]LogLinker: Can't find file '/Game/Assets/Table/metal_01'
+[2017.12.13-01.43.31:016][403]LogMaterial: Missing cached shader map for material metal_01, compiling. 
+[2017.12.13-01.43.31:031][403]LogFbx: Warning: Triangulating static mesh tableBase
+[2017.12.13-01.43.31:051][403]LogStaticMesh: Building static mesh tableBase_mat...
+[2017.12.13-01.43.31:068][403]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Table/tableBase_mat.tableBase_mat
+[2017.12.13-01.43.31:098][403]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.12.13-01.43.31:098][403]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.12.13-01.43.31:263][403]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 M:\ExpGames\Final\assets\tableHandles_mat.fbx)
+[2017.12.13-01.43.31:272][403]LogFbx: Loading FBX Scene from M:\ExpGames\Final\assets\tableHandles_mat.fbx
+[2017.12.13-01.43.31:280][403]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.13-01.43.31:281][403]LogLinker: Can't find file '/Game/Assets/Table/metal_02'
+[2017.12.13-01.43.31:281][403]LogLinker: Can't find file '/Game/Assets/Table/metal_02'
+[2017.12.13-01.43.31:285][403]LogMaterial: Missing cached shader map for material metal_02, compiling. 
+[2017.12.13-01.43.31:303][403]LogFbx: Warning: Triangulating static mesh tableHandles
+[2017.12.13-01.43.31:880][403]LogStaticMesh: Building static mesh tableHandles_mat...
+[2017.12.13-01.43.32:540][403]LogStaticMesh: Built static mesh [0.71s] /Game/Assets/Table/tableHandles_mat.tableHandles_mat
+[2017.12.13-01.43.32:541][403]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.13-01.43.32:655][403]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.12.13-01.43.32:777][403]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 M:\ExpGames\Final\assets\tableScrews_mat.fbx)
+[2017.12.13-01.43.32:788][403]LogFbx: Loading FBX Scene from M:\ExpGames\Final\assets\tableScrews_mat.fbx
+[2017.12.13-01.43.32:796][403]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.13-01.43.32:800][403]LogFbx: Warning: Triangulating static mesh tableScrews
+[2017.12.13-01.43.33:492][403]LogStaticMesh: Building static mesh tableScrews_mat...
+[2017.12.13-01.43.33:822][403]LogStaticMesh: Built static mesh [0.39s] /Game/Assets/Table/tableScrews_mat.tableScrews_mat
+[2017.12.13-01.43.33:871][403]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.12.13-01.43.33:880][403]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 M:\ExpGames\Final\assets\tableTop_mat.fbx)
+[2017.12.13-01.43.33:936][403]LogFbx: Loading FBX Scene from M:\ExpGames\Final\assets\tableTop_mat.fbx
+[2017.12.13-01.43.33:942][403]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.13-01.43.33:942][403]LogLinker: Can't find file '/Game/Assets/Table/tableTop1'
+[2017.12.13-01.43.33:943][403]LogLinker: Can't find file '/Game/Assets/Table/tableTop1'
+[2017.12.13-01.43.33:963][403]LogMaterial: Missing cached shader map for material tableTop1, compiling. 
+[2017.12.13-01.43.33:981][403]LogLinker: Can't find file '/Game/Assets/Table/tableEdge'
+[2017.12.13-01.43.33:981][403]LogLinker: Can't find file '/Game/Assets/Table/tableEdge'
+[2017.12.13-01.43.33:990][403]LogMaterial: Missing cached shader map for material tableEdge, compiling. 
+[2017.12.13-01.43.34:010][403]LogFbx: Warning: Triangulating static mesh tableTop
+[2017.12.13-01.43.34:112][403]LogStaticMesh: Building static mesh tableTop_mat...
+[2017.12.13-01.43.34:128][403]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Table/tableTop_mat.tableTop_mat
+[2017.12.13-01.43.34:165][403]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.12.13-01.43.34:222][403]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 M:\ExpGames\Final\assets\tableVents_mat.fbx)
+[2017.12.13-01.43.34:235][403]LogFbx: Loading FBX Scene from M:\ExpGames\Final\assets\tableVents_mat.fbx
+[2017.12.13-01.43.34:241][403]LogFbx: FBX Scene Loaded Succesfully
+[2017.12.13-01.43.34:242][403]LogLinker: Can't find file '/Game/Assets/Table/plastic_01'
+[2017.12.13-01.43.34:242][403]LogLinker: Can't find file '/Game/Assets/Table/plastic_01'
+[2017.12.13-01.43.34:246][403]LogMaterial: Missing cached shader map for material plastic_01, compiling. 
+[2017.12.13-01.43.34:268][403]LogFbx: Warning: Triangulating static mesh tableVents
+[2017.12.13-01.43.34:506][403]LogStaticMesh: Building static mesh tableVents_mat...
+[2017.12.13-01.43.34:607][403]LogStaticMesh: Built static mesh [0.15s] /Game/Assets/Table/tableVents_mat.tableVents_mat
+[2017.12.13-01.43.34:695][403]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.12.13-01.43.57:231][161]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 113 classes and 0 folders.
+[2017.12.13-01.43.58:111][161]LogSlate: Took 0.016463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.13-01.43.58:477][162]LogSlate: Took 0.031965 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.13-01.44.00:565][401]LogRenderer: Reallocating scene render targets to support 1328x900 Format 26 NumSamples 1 (Frame:1).
+[2017.12.13-01.44.58:971][881]BlueprintLog: New page: Compile BP_ControlTable
+[2017.12.13-01.45.10:331][571]LogTemp: Repeating last play command: Simulate
+[2017.12.13-01.45.10:361][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-01.45.10:361][571]PIE: New page: SIE session: ShipInterior (Dec 12, 2017, 3:45:10 PM)
+[2017.12.13-01.45.10:361][571]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ShipInterior
+[2017.12.13-01.45.10:364][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003143s)
+[2017.12.13-01.45.10:365][571]LogAIModule: Creating AISystem for world ShipInterior
+[2017.12.13-01.45.10:365][571]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2017.12.13-01.45.10:365][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ShipInterior.ShipInterior to /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior (0.004004s)
+[2017.12.13-01.45.10:385][571]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.13-01.45.10:398][571]LogInit: FAudioDevice initialized.
+[2017.12.13-01.45.10:430][571]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.12.13-01.45.10:430][571]LogLoad: Game class is 'GameModeBase'
+[2017.12.13-01.45.10:432][571]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 0) at 2017.12.12-20.45.10
+[2017.12.13-01.45.10:433][571]LogWorld: Bringing up level for play took: 0.001759
+[2017.12.13-01.45.10:433][571]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.13-01.45.10:438][571]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2017.12.13-01.45.10:438][571]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ShipInterior 0.322
+[2017.12.13-01.45.16:739][781]LogRenderer: Reallocating scene render targets to support 1352x900 Format 26 NumSamples 1 (Frame:230).
+[2017.12.13-01.45.16:812][782]LogRenderer: Reallocating scene render targets to support 1372x900 Format 26 NumSamples 1 (Frame:232).
+[2017.12.13-01.45.16:889][783]LogRenderer: Reallocating scene render targets to support 1396x900 Format 26 NumSamples 1 (Frame:234).
+[2017.12.13-01.45.17:003][784]LogRenderer: Reallocating scene render targets to support 1424x900 Format 26 NumSamples 1 (Frame:236).
+[2017.12.13-01.45.17:146][785]LogRenderer: Reallocating scene render targets to support 1444x900 Format 26 NumSamples 1 (Frame:238).
+[2017.12.13-01.45.17:244][786]LogRenderer: Reallocating scene render targets to support 1448x900 Format 26 NumSamples 1 (Frame:240).
+[2017.12.13-01.45.18:078][826]LogRenderer: Reallocating scene render targets to support 1468x900 Format 26 NumSamples 1 (Frame:254).
+[2017.12.13-01.45.18:153][827]LogRenderer: Reallocating scene render targets to support 1476x900 Format 26 NumSamples 1 (Frame:256).
+[2017.12.13-01.45.18:261][828]LogRenderer: Reallocating scene render targets to support 1484x900 Format 26 NumSamples 1 (Frame:258).
+[2017.12.13-01.45.18:384][829]LogRenderer: Reallocating scene render targets to support 1492x900 Format 26 NumSamples 1 (Frame:260).
+[2017.12.13-01.45.18:468][830]LogRenderer: Reallocating scene render targets to support 1508x900 Format 26 NumSamples 1 (Frame:262).
+[2017.12.13-01.45.18:628][831]LogRenderer: Reallocating scene render targets to support 1516x900 Format 26 NumSamples 1 (Frame:264).
+[2017.12.13-01.45.18:738][832]LogRenderer: Reallocating scene render targets to support 1532x900 Format 26 NumSamples 1 (Frame:266).
+[2017.12.13-01.45.18:857][833]LogRenderer: Reallocating scene render targets to support 1540x900 Format 26 NumSamples 1 (Frame:268).
+[2017.12.13-01.45.18:925][834]LogRenderer: Reallocating scene render targets to support 1552x900 Format 26 NumSamples 1 (Frame:270).
+[2017.12.13-01.45.19:001][835]LogRenderer: Reallocating scene render targets to support 1556x900 Format 26 NumSamples 1 (Frame:272).
+[2017.12.13-01.45.19:122][836]LogRenderer: Reallocating scene render targets to support 1564x900 Format 26 NumSamples 1 (Frame:274).
+[2017.12.13-01.45.19:259][837]LogRenderer: Reallocating scene render targets to support 1572x900 Format 26 NumSamples 1 (Frame:276).
+[2017.12.13-01.45.56:163][724]LogRenderer: Reallocating scene render targets to support 1576x900 Format 26 NumSamples 1 (Frame:1388).
+[2017.12.13-01.45.56:241][725]LogRenderer: Reallocating scene render targets to support 1584x900 Format 26 NumSamples 1 (Frame:1390).
+[2017.12.13-01.46.00:020][859]LogRenderer: Reallocating scene render targets to support 1600x900 Format 26 NumSamples 1 (Frame:1486).
+[2017.12.13-01.46.00:105][860]LogRenderer: Reallocating scene render targets to support 1620x900 Format 26 NumSamples 1 (Frame:1488).
+[2017.12.13-01.46.00:211][861]LogRenderer: Reallocating scene render targets to support 1684x900 Format 26 NumSamples 1 (Frame:1490).
+[2017.12.13-01.46.00:378][862]LogRenderer: Reallocating scene render targets to support 1748x900 Format 26 NumSamples 1 (Frame:1492).
+[2017.12.13-01.46.00:526][863]LogRenderer: Reallocating scene render targets to support 1836x900 Format 26 NumSamples 1 (Frame:1494).
+[2017.12.13-01.46.00:596][864]LogRenderer: Reallocating scene render targets to support 1868x900 Format 26 NumSamples 1 (Frame:1496).
+[2017.12.13-01.46.35:225][ 20]LogTemp: Repeating last play command: Simulate
+[2017.12.13-01.46.35:239][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.13-01.46.35:240][ 20]PIE: New page: SIE session: ShipInterior (Dec 12, 2017, 3:46:35 PM)
+[2017.12.13-01.46.35:240][ 20]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ShipInterior
+[2017.12.13-01.46.35:243][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003399s)
+[2017.12.13-01.46.35:244][ 20]LogAIModule: Creating AISystem for world ShipInterior
+[2017.12.13-01.46.35:244][ 20]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2017.12.13-01.46.35:244][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ShipInterior.ShipInterior to /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior (0.004453s)
+[2017.12.13-01.46.35:262][ 20]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.13-01.46.35:275][ 20]LogInit: FAudioDevice initialized.
+[2017.12.13-01.46.35:306][ 20]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.12.13-01.46.35:306][ 20]LogLoad: Game class is 'GameModeBase'
+[2017.12.13-01.46.35:309][ 20]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 0) at 2017.12.12-20.46.35
+[2017.12.13-01.46.35:309][ 20]LogWorld: Bringing up level for play took: 0.001778
+[2017.12.13-01.46.35:309][ 20]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.13-01.46.35:315][ 20]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2017.12.13-01.46.35:315][ 20]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ShipInterior -0.804
+[2017.12.13-01.49.03:728][800]LogEditorViewport: Clicking on Actor (LMB): BP_ControlTable_C (BP_ControlTable)
+[2017.12.13-01.49.04:724][817]LogEditorViewport: Clicking on Actor (LMB): BP_ControlTable_C (BP_ControlTable)
+[2017.12.13-01.49.05:412][828]LogEditorViewport: Clicking on Actor (LMB): BP_ControlTable_C (BP_ControlTable)
+[2017.12.13-01.49.06:491][845]LogEditorViewport: Clicking on Actor (LMB): BP_StartDisplay_C (BP_StartDisplay)
+[2017.12.13-01.49.15:224][ 47]LogEditorViewport: Clicking on Actor (LMB): BP_ShipInterior_C (ShipInterior)
+[2017.12.13-01.49.16:551][ 77]LogEditorViewport: Clicking on Actor (LMB): BP_ShipInterior_C (ShipInterior)
+[2017.12.13-01.49.17:363][ 96]LogEditorViewport: Clicking on Actor (LMB): BP_ShipInterior_C (ShipInterior)
+[2017.12.13-01.49.17:950][106]LogEditorViewport: Clicking on Actor (LMB): BP_ShipInterior_C (ShipInterior)
+[2017.12.13-01.49.18:752][124]LogEditorViewport: Clicking on Actor (LMB): BP_ShipInterior_C (ShipInterior)
+[2017.12.13-01.49.20:545][168]LogEditorViewport: Clicking on Actor (LMB): BP_ShipInterior_C (ShipInterior)
+[2017.12.13-01.49.25:622][296]LogEditorViewport: Clicking Background
+[2017.12.13-01.54.08:945][976]LogTemp: Repeating last play command: Simulate
+[2017.12.13-01.54.08:958][976]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.13-01.54.09:005][976]LogPlayLevel: [PlayLevel] Compiling BP_HealthDisplay before play...
+[2017.12.13-01.54.09:021][976]LogPlayLevel: [PlayLevel]   Compiling BP_ShipInterior as a dependent...
+[2017.12.13-01.54.09:595][976]LogPlayLevel: PlayLevel: Blueprint regeneration took 637 ms (2 blueprints)
+[2017.12.13-01.54.09:595][976]PIE: New page: SIE session: ShipInterior (Dec 12, 2017, 3:54:09 PM)
+[2017.12.13-01.54.09:596][976]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ShipInterior
+[2017.12.13-01.54.09:599][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003408s)
+[2017.12.13-01.54.09:600][976]LogAIModule: Creating AISystem for world ShipInterior
+[2017.12.13-01.54.09:600][976]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2017.12.13-01.54.09:600][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ShipInterior.ShipInterior to /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior (0.004416s)
+[2017.12.13-01.54.09:618][976]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.13-01.54.09:632][976]LogInit: FAudioDevice initialized.
+[2017.12.13-01.54.09:663][976]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.12.13-01.54.09:663][976]LogLoad: Game class is 'GameModeBase'
+[2017.12.13-01.54.09:665][976]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ShipInterior.ShipInterior up for play (max tick rate 0) at 2017.12.12-20.54.09
+[2017.12.13-01.54.09:665][976]LogWorld: Bringing up level for play took: 0.001700
+[2017.12.13-01.54.09:666][976]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.12.13-01.54.09:671][976]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2017.12.13-01.54.09:671][976]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ShipInterior 1.534
+[2017.12.13-01.54.32:920][834]BlueprintLog: New page: Compile BP_ShipInterior
+[2017.12.13-01.54.45:636][617]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.13-01.54.58:299][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Table/metal_01" FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/metal_01.uasset" SILENT=true
+[2017.12.13-01.54.58:318][812]LogSavePackage: Save=15.40ms
+[2017.12.13-01.54.58:318][812]LogSavePackage: Moving 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/metal_01A91DAA7C41065D6525E5AA9239BC88CA.tmp' to 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/metal_01.uasset'
+[2017.12.13-01.54.58:321][812]LogSavePackage: Display: Finished SavePackage M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/metal_01.uasset
+[2017.12.13-01.54.58:352][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Table/metal_02" FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/metal_02.uasset" SILENT=true
+[2017.12.13-01.54.58:369][812]LogSavePackage: Save=14.00ms
+[2017.12.13-01.54.58:369][812]LogSavePackage: Moving 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/metal_027936F950457CCAAE57CA9E932F70C50E.tmp' to 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/metal_02.uasset'
+[2017.12.13-01.54.58:372][812]LogSavePackage: Display: Finished SavePackage M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/metal_02.uasset
+[2017.12.13-01.54.58:398][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Table/metal_03" FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/metal_03.uasset" SILENT=true
+[2017.12.13-01.54.58:416][812]LogSavePackage: Save=15.32ms
+[2017.12.13-01.54.58:416][812]LogSavePackage: Moving 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/metal_034E5F0A51476A04C94A1ACABD1F8DA556.tmp' to 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/metal_03.uasset'
+[2017.12.13-01.54.58:420][812]LogSavePackage: Display: Finished SavePackage M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/metal_03.uasset
+[2017.12.13-01.54.58:452][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Table/plastic_01" FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/plastic_01.uasset" SILENT=true
+[2017.12.13-01.54.58:468][812]LogSavePackage: Save=13.81ms
+[2017.12.13-01.54.58:468][812]LogSavePackage: Moving 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/plastic_01E687E31C432AD6824141E0B5B56EA4D2.tmp' to 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/plastic_01.uasset'
+[2017.12.13-01.54.58:472][812]LogSavePackage: Display: Finished SavePackage M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/plastic_01.uasset
+[2017.12.13-01.54.58:498][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Table/tableBase_mat" FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableBase_mat.uasset" SILENT=true
+[2017.12.13-01.54.58:515][812]LogSavePackage: Save=14.36ms
+[2017.12.13-01.54.58:515][812]LogSavePackage: Moving 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/tableBase_matDE1B87B4461ACF35421455BEF21FF3FF.tmp' to 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableBase_mat.uasset'
+[2017.12.13-01.54.58:519][812]LogSavePackage: Display: Finished SavePackage M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableBase_mat.uasset
+[2017.12.13-01.54.58:549][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Table/tableEdge" FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableEdge.uasset" SILENT=true
+[2017.12.13-01.54.58:566][812]LogSavePackage: Save=14.57ms
+[2017.12.13-01.54.58:566][812]LogSavePackage: Moving 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/tableEdgeA72478D6410092D921C69A82A49AEA6D.tmp' to 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableEdge.uasset'
+[2017.12.13-01.54.58:571][812]LogSavePackage: Display: Finished SavePackage M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableEdge.uasset
+[2017.12.13-01.54.58:595][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Table/tableHandles_mat" FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableHandles_mat.uasset" SILENT=true
+[2017.12.13-01.54.58:624][812]LogSavePackage: Save=26.81ms
+[2017.12.13-01.54.58:624][812]LogSavePackage: Moving 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/tableHandles_mat76D56D0F4DBAA5BB367294AE610CD005.tmp' to 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableHandles_mat.uasset'
+[2017.12.13-01.54.58:628][812]LogSavePackage: Display: Finished SavePackage M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableHandles_mat.uasset
+[2017.12.13-01.54.58:655][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Table/tableScrews_mat" FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableScrews_mat.uasset" SILENT=true
+[2017.12.13-01.54.58:689][812]LogSavePackage: Save=31.52ms
+[2017.12.13-01.54.58:689][812]LogSavePackage: Moving 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/tableScrews_mat43427BD34048C5A4358A87B03F453428.tmp' to 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableScrews_mat.uasset'
+[2017.12.13-01.54.58:692][812]LogSavePackage: Display: Finished SavePackage M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableScrews_mat.uasset
+[2017.12.13-01.54.58:720][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Table/tableTop1" FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableTop1.uasset" SILENT=true
+[2017.12.13-01.54.58:736][812]LogSavePackage: Save=13.05ms
+[2017.12.13-01.54.58:736][812]LogSavePackage: Moving 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/tableTop1336883FB4CE8A8DA8A70F3A914E1DCB6.tmp' to 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableTop1.uasset'
+[2017.12.13-01.54.58:740][812]LogSavePackage: Display: Finished SavePackage M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableTop1.uasset
+[2017.12.13-01.54.58:763][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Table/tableTop_mat" FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableTop_mat.uasset" SILENT=true
+[2017.12.13-01.54.58:780][812]LogSavePackage: Save=13.95ms
+[2017.12.13-01.54.58:780][812]LogSavePackage: Moving 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/tableTop_matE55DD8B44EAEC736927F3FBD0548922B.tmp' to 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableTop_mat.uasset'
+[2017.12.13-01.54.58:784][812]LogSavePackage: Display: Finished SavePackage M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableTop_mat.uasset
+[2017.12.13-01.54.58:808][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Table/tableVents_mat" FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableVents_mat.uasset" SILENT=true
+[2017.12.13-01.54.58:830][812]LogSavePackage: Save=17.93ms
+[2017.12.13-01.54.58:830][812]LogSavePackage: Moving 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/tableVents_mat4D43AAC7439CEB8D3127F6808C82AEC8.tmp' to 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableVents_mat.uasset'
+[2017.12.13-01.54.58:834][812]LogSavePackage: Display: Finished SavePackage M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Assets/Table/tableVents_mat.uasset
+[2017.12.13-01.54.58:863][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ControlTable" FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_ControlTable.uasset" SILENT=true
+[2017.12.13-01.54.58:987][812]LogSavePackage: Save=105.10ms
+[2017.12.13-01.54.58:987][812]LogSavePackage: Moving 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/BP_ControlTable6BD6F0A3442BAEA77D39B9AE60A7A086.tmp' to 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_ControlTable.uasset'
+[2017.12.13-01.54.58:991][812]LogSavePackage: Display: Finished SavePackage M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_ControlTable.uasset
+[2017.12.13-01.54.59:080][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ShipInterior" FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_ShipInterior.uasset" SILENT=true
+[2017.12.13-01.54.59:338][812]LogSavePackage: Save=236.47ms
+[2017.12.13-01.54.59:338][812]LogSavePackage: Moving 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/BP_ShipInterior2AED50124EE186BD70EBDFB0B6AFE617.tmp' to 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_ShipInterior.uasset'
+[2017.12.13-01.54.59:342][812]LogSavePackage: Display: Finished SavePackage M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Blueprints/BP_ShipInterior.uasset
+[2017.12.13-01.54.59:409][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ShipInterior" FILE="M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.13-01.54.59:540][812]LogSavePackage: Save=91.79ms
+[2017.12.13-01.54.59:540][812]LogSavePackage: Moving 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/ShipInteriorBD1EFBC14736B616ACDC6BA40DEEF8EF.tmp' to 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap'
+[2017.12.13-01.54.59:545][812]LogSavePackage: Display: Finished SavePackage M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Maps/ShipInterior.umap
+[2017.12.13-01.54.59:568][812]LogFileHelpers: Saving map 'ShipInterior' took 0.224
+[2017.12.13-01.54.59:817][813]Cmd: QUIT_EDITOR
+[2017.12.13-01.54.59:886][813]LogExit: Preparing to exit.
+[2017.12.13-01.55.00:593][813]LogExit: Editor shut down
+[2017.12.13-01.55.00:596][813]LogExit: Transaction tracking system shut down
+[2017.12.13-01.55.00:857][813]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.13-01.55.00:857][813]LogDirectoryWatcher: A directory notification for 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/' was aborted.
+[2017.12.13-01.55.00:857][813]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.13-01.55.00:857][813]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.13-01.55.00:857][813]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.13-01.55.00:944][813]LogExit: Object subsystem successfully closed.
+[2017.12.13-01.55.00:960][813]LogD3D11RHI: Shutdown
+[2017.12.13-01.55.00:960][813]LogD3D11RHI: CleanupD3DDevice
+[2017.12.13-01.55.01:058][813]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.13-01.55.01:073][813]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2017.12.13-01.55.01:073][813]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.12.13-01.55.01:073][813]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.12.13-01.55.01:074][813]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.12.13-01.55.01:074][813]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.12.13-01.55.01:074][813]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.12.13-01.55.01:074][813]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.12.13-01.55.01:074][813]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.12.13-01.55.01:074][813]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.12.13-01.55.01:074][813]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.12.13-01.55.01:075][813]LogDirectoryWatcher: A directory notification for 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Collections/' was aborted.
+[2017.12.13-01.55.01:075][813]LogDirectoryWatcher: A directory notification for 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Content/Developers/Kaitlin/Collections/' was aborted.
+[2017.12.13-01.55.01:075][813]LogDirectoryWatcher: A directory notification for 'M:/ExpGames/ExperimentalGame_VR/KairosVR_new/Saved/Collections/' was aborted.
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.12.13-01.55.01:075][813]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.12.13-01.55.01:076][813]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.12.13-01.55.01:076][813]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.12.13-01.55.01:076][813]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.12.13-01.55.01:076][813]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.12.13-01.55.01:076][813]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.12.13-01.55.01:076][813]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.12.13-01.55.01:788][813]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.12.13-01.55.01:788][813]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.12.13-01.55.01:788][813]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.12.13-01.55.01:788][813]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.12.13-01.55.01:788][813]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.12.13-01.55.01:788][813]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.12.13-01.55.01:788][813]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.12.13-01.55.01:788][813]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.12.13-01.55.01:788][813]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.12.13-01.55.01:788][813]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.12.13-01.55.01:789][813]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.12.13-01.55.01:789][813]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.12.13-01.55.01:789][813]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.12.13-01.55.01:789][813]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.12.13-01.55.01:789][813]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.12.13-01.55.01:789][813]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.12.13-01.55.01:789][813]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.12.13-01.55.01:790][813]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.12.13-01.55.01:790][813]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.12.13-01.55.01:790][813]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.12.13-01.55.01:790][813]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.12.13-01.55.01:790][813]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.12.13-01.55.01:790][813]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.12.13-01.55.01:790][813]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.12.13-01.55.01:830][813]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.12.13-01.55.01:830][813]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.12.13-01.55.01:830][813]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.12.13-01.55.01:830][813]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.12.13-01.55.01:830][813]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.12.13-01.55.01:830][813]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.12.13-01.55.01:830][813]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.12.13-01.55.01:831][813]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.12.13-01.55.01:831][813]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.12.13-01.55.01:831][813]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.12.13-01.55.01:851][813]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.12.13-01.55.01:851][813]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.12.13-01.55.01:851][813]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.12.13-01.55.01:851][813]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.12.13-01.55.01:851][813]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.12.13-01.55.01:852][813]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.12.13-01.55.01:853][813]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.12.13-01.55.01:987][813]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.12.13-01.55.01:987][813]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.12.13-01.55.01:987][813]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.12.13-01.55.01:987][813]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.12.13-01.55.01:987][813]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.12.13-01.55.01:987][813]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.12.13-01.55.01:987][813]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.12.13-01.55.01:987][813]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.12.13-01.55.01:987][813]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.12.13-01.55.01:987][813]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.12.13-01.55.01:987][813]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.12.13-01.55.01:988][813]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.12.13-01.55.01:988][813]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.12.13-01.55.01:988][813]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.12.13-01.55.01:988][813]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.12.13-01.55.01:988][813]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.12.13-01.55.01:988][813]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.12.13-01.55.01:988][813]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.12.13-01.55.01:988][813]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.12.13-01.55.01:988][813]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.12.13-01.55.01:988][813]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.12.13-01.55.01:988][813]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.12.13-01.55.01:988][813]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.12.13-01.55.01:988][813]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.12.13-01.55.01:989][813]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.12.13-01.55.01:989][813]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.12.13-01.55.01:989][813]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.12.13-01.55.01:989][813]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.12.13-01.55.01:989][813]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.12.13-01.55.01:989][813]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.12.13-01.55.01:989][813]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.12.13-01.55.01:989][813]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.12.13-01.55.01:991][813]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.12.13-01.55.01:991][813]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.12.13-01.55.01:991][813]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.12.13-01.55.01:993][813]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.12.13-01.55.01:993][813]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.12.13-01.55.01:993][813]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.12.13-01.55.01:993][813]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.12.13-01.55.01:993][813]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.12.13-01.55.01:993][813]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.12.13-01.55.01:993][813]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.12.13-01.55.01:993][813]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.12.13-01.55.02:093][813]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.12.13-01.55.02:193][813]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.12.13-01.55.02:193][813]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.12.13-01.55.02:193][813]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.12.13-01.55.02:193][813]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.12.13-01.55.02:193][813]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.12.13-01.55.02:193][813]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.12.13-01.55.02:194][813]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.12.13-01.55.02:194][813]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.12.13-01.55.02:194][813]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.12.13-01.55.02:194][813]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.12.13-01.55.02:194][813]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.12.13-01.55.02:194][813]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.12.13-01.55.02:194][813]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.12.13-01.55.02:194][813]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.12.13-01.55.02:194][813]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.12.13-01.55.02:195][813]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.12.13-01.55.02:197][813]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.13-01.55.02:263][813]LogDerivedDataCache: Shutdown
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.13-01.55.02:263][813]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.13-01.55.02:264][813]LogOnline: Display: Unloading online subsystem: NULL
+[2017.12.13-01.55.02:264][813]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.13-01.55.02:265][813]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.13-01.55.02:265][813]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.13-01.55.02:265][813]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B10425AD5-4634-FF9E-25AC-D480D227D2C8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=c4bbf9924792c6d8a7e45fb522afeec0%7Cfc1672ededc048ebb0076d5480b48f5b%7C4bdca32a-b8f4-415d-bbe9-809b738f38c8&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.13-01.55.02:273][813]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.13-01.55.02:274][813]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.13-01.55.02:274][813]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.13-01.55.02:274][813]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.13-01.55.02:274][813]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.13-01.55.02:274][813]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.13-01.55.02:274][813]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.13-01.55.02:274][813]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.13-01.55.02:275][813]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.13-01.55.02:275][813]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.13-01.55.02:275][813]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.13-01.55.02:275][813]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.13-01.55.02:275][813]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.13-01.55.02:275][813]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.13-01.55.02:275][813]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.13-01.55.02:275][813]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.13-01.55.02:275][813]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.13-01.55.02:275][813]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.13-01.55.02:275][813]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.13-01.55.02:278][813]LogExit: Exiting.
+[2017.12.13-01.55.02:291][813]Log file closed, 12/12/17 20:55:02
